@@ -1,4 +1,4 @@
-package cn.liangjieheng.ioc;
+package cn.liangjieheng.learning.ioc;
 
 import java.util.Set;
 

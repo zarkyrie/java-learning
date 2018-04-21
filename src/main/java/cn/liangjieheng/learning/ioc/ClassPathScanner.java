@@ -1,7 +1,7 @@
-package cn.liangjieheng.ioc;
+package cn.liangjieheng.learning.ioc;
 
 
-import cn.liangjieheng.ioc.annotation.Bean;
+import cn.liangjieheng.learning.ioc.annotation.Bean;
 
 import java.io.File;
 import java.lang.annotation.Annotation;

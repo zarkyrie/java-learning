@@ -1,4 +1,4 @@
-package cn.liangjieheng.ioc.annotation;
+package cn.liangjieheng.learning.ioc.annotation;
 
 import java.lang.annotation.*;
 

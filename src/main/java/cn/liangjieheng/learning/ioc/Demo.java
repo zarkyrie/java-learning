@@ -1,6 +1,6 @@
-package cn.liangjieheng.ioc;
+package cn.liangjieheng.learning.ioc;
 
-import cn.liangjieheng.ioc.annotation.Bean;
+import cn.liangjieheng.learning.ioc.annotation.Bean;
 
 @Bean
 public class Demo {
