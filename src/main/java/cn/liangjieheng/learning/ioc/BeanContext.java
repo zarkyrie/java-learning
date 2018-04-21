@@ -11,7 +11,7 @@ public class BeanContext implements BeanFactory {
     private static final Set<Class<?>> classes;
 
     static {
-        classes = ClassPathScanner.getClass("cn.ljh513");
+        classes = ClassPathScanner.getClass("cn.liangjieheng.learning.ioc");
         beans = new HashMap<>();
         for (Class clazz : classes) {
             beans.put(clazz.getName(), clazz);
