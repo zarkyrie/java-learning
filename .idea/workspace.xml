@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcb1b5b9-73b4-41a7-ad76-39e17e89747c" name="Default" comment="demo commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java" afterDir="false" />
+    <list default="true" id="bcb1b5b9-73b4-41a7-ad76-39e17e89747c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,23 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="375">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlFailConnectTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java">
+      <file leaf-file-name="BioClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BioServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -46,12 +53,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reactor/Reactor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClient.java" />
@@ -59,6 +66,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioServer.java" />
       </list>
     </option>
   </component>
@@ -89,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,15 +161,25 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="url" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +208,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.ioc.Demo" />
+      <module name="java-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liangjieheng.learning.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="UrlFailConnectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.url.UrlFailConnectTest" />
       <module name="java-learning" />
@@ -240,8 +272,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.UrlFailConnectTest" />
+      <item itemvalue="Application.Demo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.UrlFailConnectTest" />
       </list>
     </recent_temporary>
@@ -259,7 +296,10 @@
       <workItem from="1524404811714" duration="992000" />
       <workItem from="1524452991826" duration="922000" />
       <workItem from="1524539685822" duration="2073000" />
-      <workItem from="1524551746215" duration="326000" />
+      <workItem from="1524551746215" duration="398000" />
+      <workItem from="1524554267955" duration="3706000" />
+      <workItem from="1524621321982" duration="374000" />
+      <workItem from="1524647343590" duration="1181000" />
     </task>
     <task id="LOCAL-00001" summary="demo commit">
       <created>1524405038827</created>
@@ -268,30 +308,37 @@
       <option name="project" value="LOCAL" />
       <updated>1524405038827</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="测试Url类不设置连接超时时间时多久才报超时错误">
+      <created>1524552127658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524552127658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4313000" />
+    <option name="totallyTimeSpent" value="9646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32971507" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.32971507" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32971507" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32971507" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49372384" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49372384" visible="true" weight="0.28540772" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info id="Structure" order="7" sideWeight="0.50627613" side_tool="true" weight="0.27110156" />
       <window_info anchor="right" id="Ant Build" order="8" show_stripe_button="false" weight="0.25" />
@@ -306,7 +353,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32971507" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
@@ -322,7 +368,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo commit" />
+    <MESSAGE value="测试Url类不设置连接超时时间时多久才报超时错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试Url类不设置连接超时时间时多久才报超时错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,6 +377,71 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -354,20 +466,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reactor/Reactor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
@@ -435,6 +533,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -442,13 +550,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="58" />
         </state>
       </provider>
     </entry>

@@ -17,8 +17,7 @@ public class BioServer {
             Socket socket = serverSocket.accept();
             new Thread(() -> {
                 try {
-                    InputStream inputStream = socket.getInputStream();
-                    BufferedInputStream bufferedInputStream = new BufferedInputStream(inputStream);
+                    BufferedInputStream bufferedInputStream = new BufferedInputStream(socket.getInputStream());
                     byte[] bytes = new byte[20];
                     OutputStream outputStream = socket.getOutputStream();
                     int length = 0;
