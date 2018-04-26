@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb1b5b9-73b4-41a7-ad76-39e17e89747c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClientDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,66 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SocketClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SocketClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="240">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketServerDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketClientDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClientDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerSocket.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="93" column="58" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintWriter.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/io/PrintWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="627" column="23" selection-start-line="627" selection-start-column="16" selection-end-line="627" selection-end-column="23" />
-              <folding>
-                <element signature="e#3871#3872#0" expanded="true" />
-                <element signature="e#3903#3904#0" expanded="true" />
-              </folding>
+              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -113,11 +64,12 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/BioServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClientDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServer.java" />
       </list>
     </option>
   </component>
@@ -270,6 +222,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="DemoSocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.socket.DemoSocketClient" />
+      <module name="java-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liangjieheng.learning.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.socket.Server" />
       <module name="java-learning" />
@@ -283,17 +246,6 @@
     </configuration>
     <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.socket.SocketClient" />
-      <module name="java-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.liangjieheng.learning.socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SocketClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.socket.SocketClientDemo" />
       <module name="java-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -360,13 +312,13 @@
       <item itemvalue="Application.SocketServer" />
       <item itemvalue="Application.SocketClient" />
       <item itemvalue="Application.Server" />
-      <item itemvalue="Application.SocketClientDemo" />
+      <item itemvalue="Application.DemoSocketClient" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SocketClient" />
         <item itemvalue="Application.SocketServer" />
-        <item itemvalue="Application.SocketClientDemo" />
+        <item itemvalue="Application.DemoSocketClient" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.Demo" />
       </list>
@@ -389,7 +341,7 @@
       <workItem from="1524554267955" duration="3706000" />
       <workItem from="1524621321982" duration="374000" />
       <workItem from="1524647343590" duration="1181000" />
-      <workItem from="1524663536791" duration="4061000" />
+      <workItem from="1524663536791" duration="4279000" />
     </task>
     <task id="LOCAL-00001" summary="demo commit">
       <created>1524405038827</created>
@@ -419,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524707473553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="SOCKET">
+      <created>1524708562105</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524708562105</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13707000" />
+    <option name="totallyTimeSpent" value="13925000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
@@ -475,7 +434,8 @@
     <MESSAGE value="demo commit" />
     <MESSAGE value="测试Url类不设置连接超时时间时多久才报超时错误" />
     <MESSAGE value="BIO fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="BIO fix" />
+    <MESSAGE value="SOCKET" />
+    <option name="LAST_COMMIT_MESSAGE" value="SOCKET" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -665,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -703,6 +656,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -710,13 +670,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -732,8 +685,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="240">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
         </state>
       </provider>
     </entry>

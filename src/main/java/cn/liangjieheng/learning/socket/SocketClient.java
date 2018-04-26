@@ -17,7 +17,7 @@ public class SocketClient {
 
             String result = "";
 
-            while (!result.contains("byte")) {
+            while (!result.contains("bye")) {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
                 String to = reader.readLine();
                 System.out.println("Client say : " + to);

@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class SocketClientDemo extends Socket {
+public class DemoSocketClient extends Socket {
 
     private static final String SERVER_IP ="127.0.0.1";
     private static final int SERVER_PORT =2013;
@@ -17,7 +17,7 @@ public class SocketClientDemo extends Socket {
     /**
      * 与服务器连接，并输入发送消息
      */
-    public SocketClientDemo()throws Exception{
+    public DemoSocketClient()throws Exception{
         super(SERVER_IP, SERVER_PORT);
         client =this;
         out =new PrintWriter(this.getOutputStream(),true);
@@ -66,7 +66,7 @@ public class SocketClientDemo extends Socket {
 
     public static void main(String[] args) {
         try {
-            new SocketClientDemo();//启动客户端
+            new DemoSocketClient();//启动客户端
         }catch (Exception e) {
         }
     }

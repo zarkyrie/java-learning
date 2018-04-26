@@ -22,7 +22,7 @@ public class SocketServer {
                     String line = bufferedReader.readLine();
                     System.out.println("Client say : " + line);
 
-                    while (!line.contains("byte")) {
+                    while (!line.contains("bye")) {
                         printWriter.println("continue! you say : " + line);
                         line = bufferedReader.readLine();
                         System.out.println("Client say : " + line);
