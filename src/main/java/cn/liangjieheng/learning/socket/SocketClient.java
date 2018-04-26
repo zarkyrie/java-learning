@@ -8,12 +8,14 @@ import java.util.Scanner;
 public class SocketClient {
 
     public static void main(String[] args) {
+        PrintWriter printWriter = null;
+        BufferedReader bufferedReader = null;
         try {
             Socket socket = new Socket("127.0.0.1", 12018);
             socket.setSoTimeout(60000);
 
-            PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            printWriter = new PrintWriter(socket.getOutputStream(), true);
+            bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
             String result = "";
 
@@ -33,7 +35,16 @@ public class SocketClient {
         } catch (Exception ex) {
             ex.printStackTrace();
         } finally {
-
+            if (printWriter != null) {
+                printWriter.close();
+            }
+            try {
+                if (bufferedReader != null) {
+                    bufferedReader.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

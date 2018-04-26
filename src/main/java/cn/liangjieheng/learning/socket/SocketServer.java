@@ -13,11 +13,9 @@ public class SocketServer {
         while (true) {
             Socket socket = serverSocket.accept();
             new Thread(() -> {
-                try {
-                    System.out.println("Client connect!");
-                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-
-                    PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
+                System.out.println("Client connect!");
+                try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                     PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true)) {
 
                     String line = bufferedReader.readLine();
                     System.out.println("Client say : " + line);
@@ -28,12 +26,7 @@ public class SocketServer {
                         System.out.println("Client say : " + line);
                     }
                     printWriter.println("byte Client");
-
                     System.out.println("Client disconnect!");
-
-                    bufferedReader.close();
-                    printWriter.close();
-                    socket.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
