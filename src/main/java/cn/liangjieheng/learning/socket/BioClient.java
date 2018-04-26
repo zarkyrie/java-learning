@@ -7,22 +7,31 @@ import java.util.Scanner;
 
 public class BioClient {
 
-    public static void main(String[] args)  {
-        System.out.println("请输入:");
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
         try {
-            Socket socket = new Socket(InetAddress.getLocalHost(), 2018);
+            Socket socket = new Socket("127.0.0.1", 12018);
             socket.setSoTimeout(60000);
 
-            PrintWriter printWriter = new PrintWriter(socket.getOutputStream(),true);
+            PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
             String result = "";
 
+            while (!result.contains("byte")) {
+                BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+                printWriter.print(reader.readLine());
+                printWriter.flush();
+                result = bufferedReader.readLine();
+                System.out.println("Server say : " + result);
+            }
 
-        }catch (Exception ex){
+            printWriter.close();
+            bufferedReader.close();
+            socket.close();
+
+        } catch (Exception ex) {
             ex.printStackTrace();
-        }finally {
+        } finally {
 
         }
     }

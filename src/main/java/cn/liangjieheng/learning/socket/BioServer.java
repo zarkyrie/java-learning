@@ -1,15 +1,12 @@
 package cn.liangjieheng.learning.socket;
 
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 public class BioServer {
 
-    private static final int port = 12301;
+    private static final int port = 12018;
 
     public static void main(String[] args) throws IOException {
         final ServerSocket serverSocket = new ServerSocket(port);
@@ -17,26 +14,27 @@ public class BioServer {
             Socket socket = serverSocket.accept();
             new Thread(() -> {
                 try {
-                    BufferedInputStream bufferedInputStream = new BufferedInputStream(socket.getInputStream());
-                    byte[] bytes = new byte[20];
-                    OutputStream outputStream = socket.getOutputStream();
-                    int length = 0;
-                    StringBuilder stringBuilder = new StringBuilder();
-                    while ((length = bufferedInputStream.read(bytes)) != -1) {
-                        System.out.println(new String(bytes,0,length));
-                        stringBuilder.append(new String(bytes,0,length) + " world");
+                    System.out.println("accept!");
+                    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+
+                    PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
+
+                    String line = bufferedReader.readLine();
+
+                    while (!line.contains("byte")) {
+                        printWriter.print("continue!");
+                        line = bufferedReader.readLine();
+                        System.out.println("Client say : " + line);
                     }
-                    byte[] bytes1 = stringBuilder.toString().getBytes();
-                    outputStream.write(bytes, 0, bytes1.length);
-                    outputStream.flush();
+                    printWriter.print("byte Client");
+
+                    System.out.println("Client exit");
+
+                    bufferedReader.close();
+                    printWriter.close();
+                    socket.close();
                 } catch (IOException e) {
                     e.printStackTrace();
-                } finally {
-                    try {
-                        socket.shutdownInput();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
                 }
             }).start();
         }
