@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class BioServer {
+public class SocketServer {
 
     private static final int port = 12018;
 
@@ -14,21 +14,22 @@ public class BioServer {
             Socket socket = serverSocket.accept();
             new Thread(() -> {
                 try {
-                    System.out.println("accept!");
+                    System.out.println("Client connect!");
                     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
                     PrintWriter printWriter = new PrintWriter(socket.getOutputStream(), true);
 
                     String line = bufferedReader.readLine();
+                    System.out.println("Client say : " + line);
 
                     while (!line.contains("byte")) {
-                        printWriter.print("continue!");
+                        printWriter.println("continue! you say : " + line);
                         line = bufferedReader.readLine();
                         System.out.println("Client say : " + line);
                     }
-                    printWriter.print("byte Client");
+                    printWriter.println("byte Client");
 
-                    System.out.println("Client exit");
+                    System.out.println("Client disconnect!");
 
                     bufferedReader.close();
                     printWriter.close();

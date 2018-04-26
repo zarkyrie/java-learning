@@ -7,11 +7,11 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server extends ServerSocket {
+public class SocketServerDemo extends ServerSocket {
 
     private static final int SERVER_PORT =2013;
 
-    public Server()throws IOException {
+    public SocketServerDemo()throws IOException {
         super(SERVER_PORT);
 
         try {
@@ -63,6 +63,6 @@ public class Server extends ServerSocket {
     }
 
     public static void main(String[] args)throws IOException {
-        new Server();
+        new SocketServerDemo();
     }
 }
