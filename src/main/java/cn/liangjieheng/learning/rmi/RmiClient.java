@@ -2,6 +2,10 @@ package cn.liangjieheng.learning.rmi;
 
 import java.rmi.Naming;
 
+/**
+ * RMI客户端
+ * 从RMI注册服务器调用远程对象的方法
+ */
 public class RmiClient {
     public static void main(String[] args) {
         final String url = "rmi://localhost:12018";
