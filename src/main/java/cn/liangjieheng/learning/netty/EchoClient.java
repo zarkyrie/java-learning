@@ -11,44 +11,48 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 
 import java.net.InetSocketAddress;
 
-public class EchoClient {
+public class EchoClient implements Runnable{
 
     private final String host;
 
     private final int port;
 
-    public EchoClient(String host, int port) {
+    private final int flag;
+
+    public EchoClient(String host, int port, int flag) {
         this.host = host;
         this.port = port;
+        this.flag = flag;
     }
 
-    public void start() throws Exception {
+    @Override
+    public void run() {
         EventLoopGroup group = new NioEventLoopGroup();
-
         try {
             Bootstrap b = new Bootstrap();
             b.group(group).channel(NioSocketChannel.class).remoteAddress(new InetSocketAddress(host, port))
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
-                            socketChannel.pipeline().addLast(new EchoClientHandler());
+                            socketChannel.pipeline().addLast(new EchoClientHandler(flag));
                         }
                     });
             ChannelFuture f = b.connect().sync();
             f.channel().closeFuture().sync();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         } finally {
-            group.shutdownGracefully().sync();
+            try {
+                group.shutdownGracefully().sync();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 
     public static void main(String[] args) throws Exception {
-        if (args.length != 2) {
-            System.out.println("Usage: " + EchoClient.class.getSimpleName() + " <host> <port>");
-            return;
+        for (int i = 0; i < 20; i++) {
+            new Thread(new EchoClient("localhost", 12018, i)).start();
         }
-
-        String host = "localhost";
-        int port = 50000;
-        new EchoClient(host, 20000).start();
     }
 }
