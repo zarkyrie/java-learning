@@ -8,6 +8,6 @@ public class LogTest {
     private static final Logger LOGGER = LogManager.getLogger(LogTest.class);
 
     public static void main(String[] args) {
-        LOGGER.error("test error");
+        LOGGER.error("test info");
     }
 }

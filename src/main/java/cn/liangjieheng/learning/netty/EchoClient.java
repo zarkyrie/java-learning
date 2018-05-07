@@ -10,8 +10,11 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
 import java.net.InetSocketAddress;
+import java.util.concurrent.*;
 
-public class EchoClient implements Runnable{
+public class EchoClient implements Runnable {
+
+    private static final ExecutorService threadPool = new ThreadPoolExecutor(10, 100, 5000, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
 
     private final String host;
 
@@ -24,6 +27,7 @@ public class EchoClient implements Runnable{
         this.port = port;
         this.flag = flag;
     }
+
 
     @Override
     public void run() {
@@ -52,7 +56,7 @@ public class EchoClient implements Runnable{
 
     public static void main(String[] args) throws Exception {
         for (int i = 0; i < 20; i++) {
-            new Thread(new EchoClient("localhost", 12018, i)).start();
+            threadPool.execute(new EchoClient("localhost", 12018, i));
         }
     }
 }
