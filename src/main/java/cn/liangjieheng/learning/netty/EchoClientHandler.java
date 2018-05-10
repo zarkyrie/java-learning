@@ -2,28 +2,26 @@ package cn.liangjieheng.learning.netty;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
 import io.netty.util.CharsetUtil;
-
-import java.util.Date;
 
 public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
 
     private Integer flag;
 
-    private NettyConfig config;
+    private EchoConfig config;
 
-    public EchoClientHandler(NettyConfig config) {
+    public EchoClientHandler(EchoConfig config) {
         this.config = config;
     }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         System.out.println("channel is active");
+        config.setCtx(ctx);
+        config.send("register");
         ctx.fireChannelActive();
     }
 
@@ -52,7 +50,7 @@ public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
         }
     }
 
-    public NettyConfig getConfig() {
+    public EchoConfig getConfig() {
         return config;
     }
 }

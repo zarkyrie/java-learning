@@ -4,7 +4,7 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.util.CharsetUtil;
 
-public class NettyConfig {
+public class EchoConfig {
 
     private  ChannelHandlerContext ctx;
 
@@ -13,6 +13,6 @@ public class NettyConfig {
     }
 
     public void send(String msg) {
-        ctx.writeAndFlush(Unpooled.copiedBuffer(msg, CharsetUtil.UTF_8));
+        ctx.writeAndFlush(Unpooled.unreleasableBuffer(Unpooled.copiedBuffer(msg, CharsetUtil.UTF_8)));
     }
 }

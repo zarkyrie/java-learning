@@ -27,7 +27,7 @@ public class EchoClient implements Runnable {
         this.flag = flag;
     }
 
-    private static NettyConfig nettyConfig = new NettyConfig();
+    private static EchoConfig nettyConfig = new EchoConfig();
 
     @Override
     public void run() {
@@ -60,6 +60,8 @@ public class EchoClient implements Runnable {
 //        Thread A = new Thread(new EchoClient("localhost", 12018, 0));
 //        A.run();
         new EchoClient("localhost", 12018, 0).run();
+        Thread.sleep(5000);
+        nettyConfig.send("wait");
 //        nettyConfig.send("hello");
 //        Thread.sleep(3000);
 //        nettyConfig.send("world");
