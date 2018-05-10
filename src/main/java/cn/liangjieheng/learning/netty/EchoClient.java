@@ -2,12 +2,11 @@ package cn.liangjieheng.learning.netty;
 
 
 import io.netty.bootstrap.Bootstrap;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.EventLoopGroup;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.timeout.IdleStateHandler;
 
 import java.net.InetSocketAddress;
 import java.util.concurrent.*;
@@ -28,6 +27,7 @@ public class EchoClient implements Runnable {
         this.flag = flag;
     }
 
+    private static NettyConfig nettyConfig = new NettyConfig();
 
     @Override
     public void run() {
@@ -38,7 +38,9 @@ public class EchoClient implements Runnable {
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel socketChannel) throws Exception {
-                            socketChannel.pipeline().addLast(new EchoClientHandler(flag));
+                            ChannelPipeline pi = socketChannel.pipeline();
+                            pi.addLast(new IdleStateHandler(0, 0, 2, TimeUnit.SECONDS));
+                            pi.addLast(new EchoClientHandler(nettyConfig));
                         }
                     });
             ChannelFuture f = b.connect().sync();
@@ -55,8 +57,16 @@ public class EchoClient implements Runnable {
     }
 
     public static void main(String[] args) throws Exception {
-        for (int i = 0; i < 20; i++) {
-            threadPool.execute(new EchoClient("localhost", 12018, i));
-        }
+//        Thread A = new Thread(new EchoClient("localhost", 12018, 0));
+//        A.run();
+        new EchoClient("localhost", 12018, 0).run();
+//        nettyConfig.send("hello");
+//        Thread.sleep(3000);
+//        nettyConfig.send("world");
+//        EchoClientHandler echoClientHandler = new EchoClientHandler(0);
+//        echoClientHandler.getConfig().send("hello server");
+//
+//        echoClientHandler.getConfig().send("hello ");
+
     }
 }

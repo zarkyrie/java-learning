@@ -47,5 +47,10 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.5</version>
         </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-handler</artifactId>
+            <version>4.1.16.Final</version>
+        </dependency>
     </dependencies>
 </project>
