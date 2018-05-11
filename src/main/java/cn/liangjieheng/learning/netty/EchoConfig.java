@@ -13,6 +13,6 @@ public class EchoConfig {
     }
 
     public void send(String msg) {
-        ctx.writeAndFlush(Unpooled.unreleasableBuffer(Unpooled.copiedBuffer(msg, CharsetUtil.UTF_8)));
+        ctx.writeAndFlush(Unpooled.copiedBuffer(msg, CharsetUtil.UTF_8));
     }
 }

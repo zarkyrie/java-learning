@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb1b5b9-73b4-41a7-ad76-39e17e89747c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/ParentClazz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/NettyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/Clazz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/Clazz.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +14,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/java_learning$EchoClient.ic" NAME="EchoClient Coverage Results" MODIFIED="1525963313023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.liangjieheng.learning.netty.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -43,7 +48,7 @@
       <file leaf-file-name="HeartBeatClientHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/HeartBeatClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
+            <state relative-caret-position="-229">
               <caret line="13" column="72" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,8 +60,45 @@
       <file leaf-file-name="EchoConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="101" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
+            <state relative-caret-position="240">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/logging/LogTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParentClazz.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/ParentClazz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clazz.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/Clazz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,8 +109,12 @@
       <file leaf-file-name="EchoClientHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="244">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <folding>
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,17 +122,17 @@
       <file leaf-file-name="EchoServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="296">
               <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EchoClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EchoClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="266">
+              <caret line="69" column="2" lean-forward="true" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -146,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/logging/LogTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/Decoder.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/Clazz.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/NettyConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/HeartBeatsClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/HeartBeatClientHandler.java" />
@@ -155,9 +200,11 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/HeartBeatServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/ParentClazz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/Clazz.java" />
       </list>
     </option>
   </component>
@@ -280,17 +327,6 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
               <item name="reflect" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -328,7 +364,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EchoClient">
+  <component name="RunManager" selected="Application.Clazz">
+    <configuration name="Clazz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.reflect.Clazz" />
+      <module name="java-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liangjieheng.learning.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.netty.EchoClient" />
       <module name="java-learning" />
@@ -419,9 +466,11 @@
       <item itemvalue="Application.EchoClient" />
       <item itemvalue="Application.HeartBeatServer" />
       <item itemvalue="Application.HeartBeatClient" />
+      <item itemvalue="Application.Clazz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Clazz" />
         <item itemvalue="Application.EchoClient" />
         <item itemvalue="Application.EchoServer" />
         <item itemvalue="Application.HeartBeatClient" />
@@ -470,7 +519,7 @@
       <workItem from="1525850876897" duration="961000" />
       <workItem from="1525879884669" duration="52000" />
       <workItem from="1525917623399" duration="8313000" />
-      <workItem from="1525958973983" duration="3816000" />
+      <workItem from="1525958973983" duration="5335000" />
     </task>
     <task id="LOCAL-00001" summary="demo commit">
       <created>1524405038827</created>
@@ -577,11 +626,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525962689267</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix">
+      <created>1525963024859</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1525963024859</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62505000" />
+    <option name="totallyTimeSpent" value="64024000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -597,28 +653,29 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.3297568" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="right" id="REPL" order="10" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="Leiningen" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3297568" />
+      <window_info id="Structure" order="7" sideWeight="0.39068827" side_tool="true" weight="0.2811159" />
+      <window_info anchor="right" id="Ant Build" order="8" show_stripe_button="false" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.3514247" />
       <window_info anchor="bottom" id="TODO" order="15" weight="0.32971507" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32971507" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.3297568" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="right" id="REPL" order="10" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.32971507" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32971507" />
-      <window_info anchor="right" id="Leiningen" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32971507" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.60931176" visible="true" weight="0.29685265" />
-      <window_info anchor="right" id="Database" order="2" weight="0.3297568" />
-      <window_info id="Structure" order="7" sideWeight="0.39068827" side_tool="true" weight="0.2811159" />
-      <window_info anchor="right" id="Ant Build" order="8" show_stripe_button="false" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.3514247" />
       <window_info id="Favorites" order="3" show_stripe_button="false" side_tool="true" />
       <window_info anchor="bottom" id="SVN Repositories" order="7" weight="0.32971507" />
       <window_info anchor="bottom" id="Spring" order="1" />
@@ -654,15 +711,15 @@
     <MESSAGE value="netty改成多线程测试" />
     <MESSAGE value="test code" />
     <MESSAGE value="netty 心跳机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="netty 心跳机制" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/interfaces/AInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/interfaces/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reactor/Reactor.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -861,23 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/Clazz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/logging/LogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar!/io/netty/channel/ChannelHandlerContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -973,9 +1013,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/HeartBeatClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
+        <state relative-caret-position="-229">
           <caret line="13" column="72" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -990,34 +1037,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="101" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="69" column="2" lean-forward="true" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="244">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="240">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/logging/LogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/ParentClazz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="86" selection-start-line="8" selection-start-column="86" selection-end-line="8" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/Clazz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
