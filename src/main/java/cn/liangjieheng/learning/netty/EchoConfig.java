@@ -6,13 +6,13 @@ import io.netty.util.CharsetUtil;
 
 public class EchoConfig {
 
-    private  ChannelHandlerContext ctx;
+    private ChannelHandlerContext ctx;
 
     public void setCtx(ChannelHandlerContext ctx) {
         this.ctx = ctx;
     }
 
     public void send(String msg) {
-        ctx.writeAndFlush(Unpooled.copiedBuffer(msg, CharsetUtil.UTF_8));
+        ctx.writeAndFlush(Unpooled.unreleasableBuffer(Unpooled.copiedBuffer(msg, CharsetUtil.UTF_8)));
     }
 }

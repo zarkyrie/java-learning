@@ -14,6 +14,7 @@ import io.netty.handler.timeout.IdleStateHandler;
 import java.util.concurrent.TimeUnit;
 
 public class HeartBeatClient {
+    private static EchoConfig echoConfig = new EchoConfig();
 
     public void connect(int port, String host) throws Exception {
         // Configure the client.
@@ -28,10 +29,10 @@ public class HeartBeatClient {
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
                             ChannelPipeline p = ch.pipeline();
-                            p.addLast("ping", new IdleStateHandler(0, 0, 2, TimeUnit.SECONDS));
+//                            p.addLast("ping", new IdleStateHandler(0, 0, 2, TimeUnit.SECONDS));
 //                            p.addLast("decoder", new StringDecoder());
 //                            p.addLast("encoder", new StringEncoder());
-                            p.addLast(new HeartBeatClientHandler());
+                            p.addLast(new HeartBeatClientHandler(echoConfig));
                         }
                     });
 
@@ -47,6 +48,21 @@ public class HeartBeatClient {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        new HeartBeatClient().connect(12018, "127.0.0.1");
+        Thread t = new Thread(() -> {
+            try {
+                new HeartBeatClient().connect(12018, "127.0.0.1");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+        t.start();
+        Thread.sleep(10000);
+        for (int i = 0; i < 9; i++) {
+            Thread.sleep(5000);
+            echoConfig.send("hello,i am " + String.valueOf(i));
+        }
+
     }
+
+
 }

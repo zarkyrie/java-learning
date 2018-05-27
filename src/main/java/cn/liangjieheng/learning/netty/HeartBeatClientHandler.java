@@ -14,13 +14,20 @@ import java.util.Date;
 public class HeartBeatClientHandler extends ChannelInboundHandlerAdapter {
 
 
-    private static final ByteBuf HEARTBEAT_SEQUENCE = Unpooled.unreleasableBuffer(Unpooled.copiedBuffer("Heartbeat",
-            CharsetUtil.UTF_8));
+    private EchoConfig echoConfig;
+
+    public HeartBeatClientHandler() {
+    }
+
+    public HeartBeatClientHandler(EchoConfig echoConfig) {
+        this.echoConfig = echoConfig;
+    }
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         System.out.println("激活时间是：" + new Date());
         System.out.println("HeartBeatClientHandler channelActive");
+        echoConfig.setCtx(ctx);
         ctx.fireChannelActive();
     }
 
@@ -31,21 +38,9 @@ public class HeartBeatClientHandler extends ChannelInboundHandlerAdapter {
     }
 
     @Override
-    public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
-        System.out.println("循环触发时间：" + new Date());
-        if (evt instanceof IdleStateEvent) {
-            ctx.channel().writeAndFlush(HEARTBEAT_SEQUENCE.duplicate());
-        }
-    }
-
-    @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        String message = (String) msg;
-        System.out.println(message);
-        if (message.equals("Heartbeat")) {
-            ctx.write("has read message from server");
-            ctx.flush();
-        }
-        ReferenceCountUtil.release(msg);
+        ByteBuf message = (ByteBuf) msg;
+        System.out.println(message.toString());
+//        ReferenceCountUtil.release(msg);
     }
 }

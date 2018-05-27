@@ -25,27 +25,29 @@ public class HeartBeatServer {
         this.port = port;
     }
 
-    private void start(){
+    private void start() {
         EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
-            ServerBootstrap sbs = new ServerBootstrap().group(bossGroup,workerGroup).channel(NioServerSocketChannel.class)
+            ServerBootstrap sbs = new ServerBootstrap().group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
 //                    .handler(new LoggingHandler(LogLevel.INFO))
                     .localAddress(new InetSocketAddress(port))
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         protected void initChannel(SocketChannel ch) throws Exception {
-//                            ch.pipeline().addLast(new IdleStateHandler(0, 0, 2, TimeUnit.SECONDS));
+                            ch.pipeline().addLast(new IdleStateHandler(0, 0, 5, TimeUnit.SECONDS));
 //                            ch.pipeline().addLast("decoder", new StringDecoder());
 //                            ch.pipeline().addLast("encoder", new StringEncoder());
                             ch.pipeline().addLast(new HeartBeatServerHandler());
-                        };
+                        }
+
+                        ;
 
                     }).option(ChannelOption.SO_BACKLOG, 128)
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
             // 绑定端口，开始接收进来的连接
             ChannelFuture future = sbs.bind(port).sync();
 
-            System.out.println("Server start listen at " + port );
+            System.out.println("Server start listen at " + port);
             future.channel().closeFuture().sync();
         } catch (Exception e) {
             bossGroup.shutdownGracefully();
