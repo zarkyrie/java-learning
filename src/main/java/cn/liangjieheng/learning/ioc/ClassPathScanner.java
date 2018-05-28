@@ -9,6 +9,7 @@ import java.net.URL;
 import java.net.URLDecoder;
 import java.util.Enumeration;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class ClassPathScanner {
@@ -37,6 +38,8 @@ public class ClassPathScanner {
         }
         File[] files = dir.listFiles();
         try {
+            Objects.requireNonNull(files);
+
             for (File file : files) {
                 if (!file.isDirectory()) {
                     Class clazz = Class.forName(packageName + "." + file.getName().substring(0, file.getName().length() - 6));
