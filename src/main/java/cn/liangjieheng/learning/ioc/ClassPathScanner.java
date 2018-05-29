@@ -14,7 +14,7 @@ import java.util.Set;
 
 public class ClassPathScanner {
 
-    public static Set<Class<?>> getClass(String packageName) {
+    public static Set<Class<?>> getClazzes(String packageName) {
         Set<Class<?>> classSet = new HashSet<>();
         String packageDir = packageName.replace(".", File.separator);
         Enumeration<URL> dirs;
