@@ -9,11 +9,15 @@ import java.util.Set;
 
 public class AutoClassPathScanner {
 
-    public static Set<Class<?>> getClazzes() throws ClassNotFoundException {
+    public static Set<Class<?>> getClazzes() {
         Set<Class<?>> classSet = new HashSet<>();
         System.out.println(ClassLoader.getSystemResource("").getPath());
         String path = ClassLoader.getSystemResource("").getPath();
-        findClazz(path, "");
+        try {
+            findClazz(path, "");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
         return classSet;
     }
 
@@ -29,7 +33,7 @@ public class AutoClassPathScanner {
             String suffix = fileName.substring(fileName.lastIndexOf(".") + 1);
             if ("class".equals(suffix)) {
                 if (!parent.isDirectory()) {
-                    Class clazz = Class.forName(prefix.replace(".class",""));
+                    Class clazz = Class.forName(prefix.replace(".class", ""));
                     if (!clazz.isAnnotation()) {
                         Annotation[] annotations = clazz.getAnnotations();
                         for (Annotation annotation : annotations) {
@@ -44,10 +48,6 @@ public class AutoClassPathScanner {
     }
 
     public static void main(String[] args) {
-        try {
-            getClazzes();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+        getClazzes();
     }
 }

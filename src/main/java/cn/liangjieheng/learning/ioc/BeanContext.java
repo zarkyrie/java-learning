@@ -12,7 +12,8 @@ public class BeanContext implements BeanFactory {
     private static final Set<Class<?>> classes;
 
     static {
-        classes = ClassPathScanner.getClazzes("cn.liangjieheng.learning.ioc");
+//        classes = ClassPathScanner.getClazzes("cn.liangjieheng.learning.ioc");
+        classes = AutoClassPathScanner.getClazzes();
         beans = new ConcurrentHashMap<>();
         for (Class clazz : classes) {
             beans.put(clazz.getName(), clazz);
