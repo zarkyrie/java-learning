@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcb1b5b9-73b4-41a7-ad76-39e17e89747c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SemaphoreSample.java" afterDir="false" />
+    <list default="true" id="bcb1b5b9-73b4-41a7-ad76-39e17e89747c" name="Default" comment="生产者消费者实现">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/adapter/obj/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/adapter/obj/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/adapter/obj/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/EmployeeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/FADepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/FulltimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/HRDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/ParttimeEmployee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,113 +44,132 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ParentClazz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/ParentClazz.java">
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlFailConnectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/url/UrlFailConnectTest.java">
+      <file leaf-file-name="FulltimeEmployee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/FulltimeEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveDuplicates.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/leetcode/RemoveDuplicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SynchronizedSample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SynchronizedSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountDownLatchSample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/CountDownLatchSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            <state relative-caret-position="315">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding>
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
                 <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CyclicBarrierSample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/CyclicBarrierSample.java">
+      <file leaf-file-name="ParttimeEmployee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/ParttimeEmployee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            <state relative-caret-position="180">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <folding>
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#796#797#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FADepartment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/FADepartment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HRDepartment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/HRDepartment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/EmployeeList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SemaphoreSample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SemaphoreSample.java">
+      <file leaf-file-name="KeyResolver.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/com/sun/org/apache/xml/internal/security/keys/keyresolver/KeyResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            <state relative-caret-position="592">
+              <caret line="418" column="43" selection-start-line="418" selection-start-column="43" selection-end-line="418" selection-end-column="43" />
               <folding>
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#16413#16414#0" expanded="true" />
+                <element signature="e#16472#16473#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/builder/Client.java">
+      <file leaf-file-name="Iterable.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="237">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/builder/AbstractBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConcreteBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/builder/ConcreteBuilder.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-              </folding>
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -151,8 +180,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Clojure Namespace" />
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -177,18 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/socket/DemoUplodFileServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/rmi/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/rmi/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/rmi/RmiClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/rmi/RmiServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/rmi/IService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/rmi/impl/IServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test.clj" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/interfaces/A.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/interfaces/Test.java" />
-        <option value="$PROJECT_DIR$/error.log" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/logging/LogTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/Decoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/NettyConfig.java" />
@@ -228,6 +245,18 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/CountDownLatchSample.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/CyclicBarrierSample.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SemaphoreSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/adapter/obj/Target.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/adapter/obj/Adaptee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/adapter/obj/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Department.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/FulltimeEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/FADepartment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/ParttimeEmployee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/HRDepartment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/EmployeeList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Client.java" />
       </list>
     </option>
   </component>
@@ -265,7 +294,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -328,12 +356,38 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="vistor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="vistor" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,7 +419,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreSample">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.pattern.vistor.sample.Client" />
+      <module name="java-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liangjieheng.learning.pattern.vistor.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ConsumerProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.concurrent.ConsumerProducer" />
+      <module name="java-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liangjieheng.learning.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.concurrent.CountDownLatchTest" />
       <module name="java-learning" />
@@ -388,30 +464,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.leetcode.RemoveDuplicates" />
-      <module name="java-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.liangjieheng.learning.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="SemaphoreSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.concurrent.SemaphoreSample" />
-      <module name="java-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.liangjieheng.learning.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SynchronizedSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.concurrent.SynchronizedSample" />
       <module name="java-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -463,19 +517,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveDuplicates" />
-      <item itemvalue="Application.SynchronizedSample" />
       <item itemvalue="Application.CountDownLatchTest" />
       <item itemvalue="Application.CyclicBarrierSample" />
       <item itemvalue="Application.SemaphoreSample" />
+      <item itemvalue="Application.ConsumerProducer" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ConsumerProducer" />
         <item itemvalue="Application.SemaphoreSample" />
         <item itemvalue="Application.CyclicBarrierSample" />
         <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.SynchronizedSample" />
-        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -533,7 +587,9 @@
       <workItem from="1528269624326" duration="3458000" />
       <workItem from="1528947247974" duration="1182000" />
       <workItem from="1529488146529" duration="2172000" />
-      <workItem from="1529655116389" duration="1682000" />
+      <workItem from="1529655116389" duration="6160000" />
+      <workItem from="1529888780820" duration="598000" />
+      <workItem from="1530517277498" duration="3355000" />
     </task>
     <task id="LOCAL-00001" summary="demo commit">
       <created>1524405038827</created>
@@ -717,11 +773,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529656359948</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="信号量sample">
+      <created>1529656952688</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1529656952688</updated>
+    </task>
+    <task id="LOCAL-00028" summary="生产者消费者实现">
+      <created>1529660735701</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1529660735701</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84058000" />
+    <option name="totallyTimeSpent" value="92489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,7 +808,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="TODO" order="15" weight="0.32971507" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32971507" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -750,13 +819,13 @@
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32971507" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.60251045" visible="true" weight="0.35550788" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.60251045" visible="true" weight="0.36552218" />
       <window_info anchor="right" id="Database" order="2" weight="0.3297568" />
       <window_info id="Structure" order="7" sideWeight="0.39748955" side_tool="true" weight="0.31831187" />
       <window_info anchor="right" id="Ant Build" order="8" show_stripe_button="false" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="12" visible="true" weight="0.3514247" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.3514247" />
       <window_info id="Favorites" order="3" show_stripe_button="false" side_tool="true" />
       <window_info anchor="right" id="Leiningen" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -767,6 +836,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="REPL" order="10" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" visible="true" weight="0.32971507" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32971507" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32971507" />
@@ -805,7 +875,9 @@
     <MESSAGE value="线程测试" />
     <MESSAGE value="leetcode 从排序数组中删除重复项答案" />
     <MESSAGE value="java 并发包例子" />
-    <option name="LAST_COMMIT_MESSAGE" value="java 并发包例子" />
+    <MESSAGE value="信号量sample" />
+    <MESSAGE value="生产者消费者实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="生产者消费者实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -813,111 +885,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.8.Final/netty-common-4.1.8.Final.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="555" selection-start-line="555" selection-end-line="555" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="915" selection-start-line="915" selection-end-line="915" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar!/io/netty/channel/ChannelDuplexHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.16.Final/netty-handler-4.1.16.Final.jar!/io/netty/handler/timeout/IdleStateHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.8.Final/netty-common-4.1.8.Final.jar!/io/netty/util/ReferenceCountUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/HeartBeatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.16.Final/netty-handler-4.1.16.Final.jar!/io/netty/handler/logging/LoggingHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar!/io/netty/channel/SimpleChannelInboundHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/netty/EchoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.8.Final/netty-transport-4.1.8.Final.jar!/io/netty/channel/ChannelHandlerContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -971,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/BeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -990,13 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="53" column="17" selection-start-line="43" selection-start-column="16" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jvm/ClazzLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1028,13 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/AutoClassPathScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1046,9 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="39" column="87" selection-start-line="39" selection-start-column="87" selection-end-line="39" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,13 +1050,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/reflect/ParentClazz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1123,14 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/CountDownLatchSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
+        <state relative-caret-position="60">
           <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,26 +1072,196 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SemaphoreSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/CyclicBarrierSample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="90">
           <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SemaphoreSample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        <state relative-caret-position="509">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/adapter/obj/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/adapter/obj/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jvm/ClazzLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/AutoClassPathScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/adapter/obj/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/com/sun/org/apache/xml/internal/security/keys/keyresolver/KeyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="418" column="43" selection-start-line="418" selection-start-column="43" selection-end-line="418" selection-end-column="43" />
+          <folding>
+            <element signature="e#16413#16414#0" expanded="true" />
+            <element signature="e#16472#16473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/ParttimeEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/FulltimeEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/FADepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/HRDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/EmployeeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/pattern/vistor/sample/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
         </state>
       </provider>
     </entry>
