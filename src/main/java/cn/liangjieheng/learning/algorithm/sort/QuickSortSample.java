@@ -20,8 +20,7 @@ public class QuickSortSample {
                     greater.add(i);
                 }
             }
-            List<Integer> results = new ArrayList<>();
-            results.addAll(quickSort(less));
+            List<Integer> results = new ArrayList<>(quickSort(less));
             results.add(pivot);
             results.addAll(quickSort(greater));
             return results;
