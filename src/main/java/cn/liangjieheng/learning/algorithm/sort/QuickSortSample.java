@@ -6,7 +6,7 @@ import java.util.List;
 
 public class QuickSortSample {
 
-    public static List<Integer> quickSort(List<Integer> list) {
+    private static List<Integer> quickSort(List<Integer> list) {
         if (list.size() < 2) {
             return list;
         } else {
