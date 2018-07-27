@@ -3,6 +3,10 @@ package cn.liangjieheng.learning.algorithm.search;
 import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 
+/**
+ * 广度优先搜索算法实现
+ * 搜索距离最短路径的目标
+ */
 public class BreadthFirstSearchSample {
 
     private static void breadthFirstSearch(Map<String, String[]> target) {

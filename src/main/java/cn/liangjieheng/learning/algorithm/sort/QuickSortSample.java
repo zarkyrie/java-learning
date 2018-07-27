@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 快速排序实现
+ */
 public class QuickSortSample {
 
     private static List<Integer> quickSort(List<Integer> list) {
