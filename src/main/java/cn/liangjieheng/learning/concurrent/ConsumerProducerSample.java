@@ -2,7 +2,7 @@ package cn.liangjieheng.learning.concurrent;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
-public class ConsumerProducer {
+public class ConsumerProducerSample {
 
     public static void main(String[] args) {
         ArrayBlockingQueue<String> arrayBlockingQueue = new ArrayBlockingQueue<>(3);

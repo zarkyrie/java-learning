@@ -4,12 +4,12 @@ import java.sql.*;
 
 public class MysqlJDBC {
     // JDBC driver name and database URL
-    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://192.168.56.101/test";
+    private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    private static final String DB_URL = "jdbc:mysql://192.168.56.101/test";
 
     //  Database credentials -- 数据库名和密码自己修改
-    static final String USER = "root";
-    static final String PASS = "888888";
+    private static final String USER = "root";
+    private static final String PASS = "888888";
 
     public static void main(String[] args) {
         Connection conn = null;

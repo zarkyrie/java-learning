@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="985a20ca-a172-4861-8b4b-94f91a69a80a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearchSample.java" afterDir="false" />
+    <list default="true" id="985a20ca-a172-4861-8b4b-94f91a69a80a" name="Default Changelist" comment="添加注释">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducerSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,35 +18,38 @@
     <session id="-832982303">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="17" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="17" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
-          <entry key="java" value="805" />
-          <entry key="txt" value="9" />
+          <entry key="dummy" value="12" />
+          <entry key="java" value="970" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="805" />
-          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="JAVA" value="970" />
+          <entry key="PLAIN_TEXT" value="34" />
         </counts>
       </usages-collector>
     </session>
@@ -53,10 +57,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+            <state relative-caret-position="570">
+              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,43 +77,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="315">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearchSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducerSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SynchronizedSample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearchSample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1557#1558#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-25">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="198" column="10" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="10" />
+            <state relative-caret-position="315">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -114,15 +143,24 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>128</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearchSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/leetcode/RemoveDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducerSample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java" />
       </list>
     </option>
   </component>
@@ -221,6 +259,40 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -229,6 +301,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -246,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BreadthFirstSearchSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.algorithm.search.BreadthFirstSearchSample" />
       <module name="java-learning" />
@@ -260,14 +333,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.Test" />
+      <module name="java-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.liangjieheng.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BreadthFirstSearchSample" />
+      <item itemvalue="Application.Test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.BreadthFirstSearchSample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -278,7 +369,11 @@
       <updated>1532576707432</updated>
       <workItem from="1532576708740" duration="2946000" />
       <workItem from="1532590907684" duration="3000" />
-      <workItem from="1532591563430" duration="2244000" />
+      <workItem from="1532591563430" duration="6577000" />
+      <workItem from="1532662274256" duration="1051000" />
+      <workItem from="1532866283416" duration="293000" />
+      <workItem from="1533094872844" duration="1098000" />
+      <workItem from="1533198727488" duration="4620000" />
     </task>
     <task id="LOCAL-00001" summary="改成private">
       <created>1532586299915</created>
@@ -287,11 +382,25 @@
       <option name="project" value="LOCAL" />
       <updated>1532586299915</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="广度优先搜索算法">
+      <created>1532594474235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532594474235</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加注释">
+      <created>1532657005739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532657005739</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5193000" />
+    <option name="totallyTimeSpent" value="16588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="0" />
@@ -299,14 +408,13 @@
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Favorites" order="1" show_stripe_button="false" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49775785" visible="true" weight="0.26037195" />
-      <window_info id="Structure" order="3" sideWeight="0.50224215" side_tool="true" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49865228" visible="true" weight="0.2746781" />
+      <window_info id="Structure" order="3" sideWeight="0.5013477" side_tool="true" weight="0.26037195" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39892185" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -317,6 +425,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32884097" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" show_stripe_button="false" weight="0.32884097" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -334,34 +443,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="改成private" />
-    <option name="LAST_COMMIT_MESSAGE" value="改成private" />
+    <MESSAGE value="广度优先搜索算法" />
+    <MESSAGE value="添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="425" column="13" selection-start-line="425" selection-start-column="13" selection-end-line="425" selection-end-column="13" />
-          <folding>
-            <element signature="e#9697#9698#0" expanded="true" />
-            <element signature="e#9732#9733#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -386,15 +476,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearchSample.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="185">
+          <caret line="828" column="31" lean-forward="true" selection-start-line="828" selection-start-column="31" selection-end-line="828" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#60784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/leetcode/RemoveDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="623" column="17" selection-start-line="623" selection-start-column="7" selection-end-line="623" selection-end-column="17" />
+          <folding>
+            <element signature="e#24650#24651#0" expanded="true" />
+            <element signature="e#24690#24691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearchSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducerSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SynchronizedSample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
