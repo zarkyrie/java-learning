@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class AutoClassPathScanner {
 
-    public static Set<Class<?>> getClazzes() {
+    public static Set<Class<?>> getClazz() {
         Set<Class<?>> classSet = new HashSet<>();
         System.out.println(ClassLoader.getSystemResource("").getPath());
         String path = ClassLoader.getSystemResource("").getPath();
@@ -48,6 +48,6 @@ public class AutoClassPathScanner {
     }
 
     public static void main(String[] args) {
-        getClazzes();
+        getClazz();
     }
 }
