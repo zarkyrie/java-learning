@@ -1,4 +1,4 @@
-package cn.liangjieheng.learning;
+package cn.liangjieheng.learning.iocnew;
 
 import java.io.File;
 import java.lang.annotation.*;
@@ -118,7 +118,7 @@ class AutoClassPathScanner {
                     if (!clazz.isAnnotation()) {
                         Annotation[] annotations = clazz.getAnnotations();
                         for (Annotation annotation : annotations) {
-                            if (annotation.annotationType().equals(cn.liangjieheng.learning.Bean.class)) {
+                            if (annotation.annotationType().equals(Bean.class)) {
                                 classSet.add(clazz);
                                 System.out.println("加载成功:" + clazz.getName());
                             }
