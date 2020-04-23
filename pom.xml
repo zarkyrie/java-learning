@@ -11,5 +11,6 @@
     <modules>
         <module>base-demo</module>
         <module>activiti-demo</module>
+        <module>spring-cloud-netfix-demo</module>
     </modules>
 </project>
