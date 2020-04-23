@@ -9,18 +9,18 @@
         <module name="cloud-consumer-ribbon" />
         <module name="cloud-zuul" />
         <module name="activiti-demo" />
-        <module name="cloud-security" />
+        <module name="cloud-consumer-feign" />
         <module name="cloud-consumer" />
         <module name="cloud-eureka" />
         <module name="base-demo" />
-        <module name="cloud-config-server" />
         <module name="cloud-provider" />
+        <module name="cloud-config-server" />
         <module name="spring-cloud-netflix-demo" />
-        <module name="cloud-consumer-feign" />
+        <module name="cloud-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-cloud-netfix-demo" target="1.8" />
+      <module name="spring-cloud-netflix-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
