@@ -13,16 +13,19 @@ import java.util.Random;
 
 @Service
 public class TestService {
-    @Autowired
-    private RuntimeService runtimeService;
-    @Autowired
-    private TaskService taskService;
+    private final RuntimeService runtimeService;
+    private final TaskService taskService;
+
+    public TestService(RuntimeService runtimeService, TaskService taskService) {
+        this.runtimeService = runtimeService;
+        this.taskService = taskService;
+    }
 
     public void start() {
-        Map<String,Object> param = new HashMap<>();
-        param.put("a",1);
-        param.put("b1","12312312");
-        runtimeService.startProcessInstanceByKey("oneTaskProcess", String.valueOf(new Random().nextInt(100)),param);
+        Map<String, Object> param = new HashMap<>();
+        param.put("a", 1);
+        param.put("b1", "12312312");
+        runtimeService.startProcessInstanceByKey("oneTaskProcess", String.valueOf(new Random().nextInt(100)), param);
     }
 
     public void query() {

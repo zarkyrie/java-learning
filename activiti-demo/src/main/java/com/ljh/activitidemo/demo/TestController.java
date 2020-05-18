@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @Autowired
     private TestService testService;
+    @Autowired
+    private DemoService demoService;
 
     @GetMapping("/test")
     public String test() {
@@ -30,5 +32,10 @@ public class TestController {
     public String finish() {
         testService.finish();
         return "start";
+    }
+
+    @GetMapping("/demo")
+    public void demo(){
+        demoService.test();
     }
 }
