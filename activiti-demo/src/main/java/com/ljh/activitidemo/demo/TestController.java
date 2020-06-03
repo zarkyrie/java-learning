@@ -17,8 +17,8 @@ public class TestController {
     }
 
     @GetMapping("/start")
-    public String start() {
-        testService.start();
+    public String start(String key) {
+        testService.start(key);
         return "start";
     }
 
@@ -35,7 +35,7 @@ public class TestController {
     }
 
     @GetMapping("/demo")
-    public void demo(){
+    public void demo() {
         demoService.test();
     }
 }

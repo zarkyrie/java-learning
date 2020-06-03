@@ -3,7 +3,7 @@
         xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL"
         xmlns:activiti="http://activiti.org/bpmn"
         targetNamespace="Examples">
-    <process id="oneTaskProcess1" name="The One Task Process">
+    <process id="oneTaskProcess2" name="The One Task Process">
         <startEvent id="theStart"/>
         <sequenceFlow id="flow1" sourceRef="theStart" targetRef="theTask"/>
         <userTask id="theTask" name="my task">
@@ -13,13 +13,6 @@
                 </activiti:taskListener>
             </extensionElements>
         </userTask>
-        <inclusiveGateway>
-            <extensionElements>
-                <activiti:executionListener event="start">
-
-                </activiti:executionListener>
-            </extensionElements>
-        </inclusiveGateway>
         <sequenceFlow id="flow2" sourceRef="theTask" targetRef="theEnd"/>
         <endEvent id="theEnd"/>
     </process>

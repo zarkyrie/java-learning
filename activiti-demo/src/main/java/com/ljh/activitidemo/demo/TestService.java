@@ -21,11 +21,11 @@ public class TestService {
         this.taskService = taskService;
     }
 
-    public void start() {
+    public void start(String key) {
         Map<String, Object> param = new HashMap<>();
         param.put("a", 1);
         param.put("b1", "12312312");
-        runtimeService.startProcessInstanceByKey("oneTaskProcess", String.valueOf(new Random().nextInt(100)), param);
+        runtimeService.startProcessInstanceByKey(key, String.valueOf(new Random().nextInt(100)), param);
     }
 
     public void query() {

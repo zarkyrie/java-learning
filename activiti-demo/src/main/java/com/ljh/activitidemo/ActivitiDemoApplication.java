@@ -13,22 +13,26 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.Bean;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
-public class ActivitiDemoApplication implements ApplicationContextAware {
+public class ActivitiDemoApplication {
     private ApplicationContext applicationContext;
 
     public static void main(String[] args) {
         SpringApplication.run(ActivitiDemoApplication.class, args);
+
+
+
     }
 
-    @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        this.applicationContext = applicationContext;
-    }
-
-    @Bean
-    public CommandLineRunner run1(){
-        return args -> Arrays.stream(applicationContext.getBeanDefinitionNames()).forEach(System.out::println);
-    }
+//    @Override
+//    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+//        this.applicationContext = applicationContext;
+//    }
+//
+//    @Bean
+//    public CommandLineRunner run1(){
+//        return args -> Arrays.stream(applicationContext.getBeanDefinitionNames()).forEach(System.out::println);
+//    }
 }
