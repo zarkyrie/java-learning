@@ -6,17 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-consumer-ribbon" />
-        <module name="cloud-zuul" />
         <module name="activiti-demo" />
-        <module name="cloud-consumer-feign" />
-        <module name="cloud-consumer" />
-        <module name="cloud-eureka" />
         <module name="base-demo" />
-        <module name="cloud-provider" />
         <module name="security-demo" />
-        <module name="cloud-config-server" />
-        <module name="cloud-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
