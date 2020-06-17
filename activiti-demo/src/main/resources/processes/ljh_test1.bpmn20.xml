@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="http://www.activiti.org/processdef">
   <process id="ljh_test1" name="ljh测试1" isExecutable="true">
-    <startEvent id="startEvent1"></startEvent>
+    <startEvent id="startEvent1">
+      <extensionElements>
+
+      </extensionElements>
+    </startEvent>
     <userTask id="sid-3F6046DF-81EE-4C81-BF3C-0F9C8FAB192E" activiti:assignee="${col}">
       <extensionElements>
         <activiti:isforbid>false</activiti:isforbid>

@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="activiti-demo" />
-        <module name="base-demo" />
         <module name="security-demo" />
+        <module name="base-demo" />
+        <module name="activiti-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
