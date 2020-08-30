@@ -9,14 +9,15 @@
         <startEvent id="startEvent1">
         </startEvent>
         <userTask id="sid-7E0CDC25-8D69-4F59-AF52-163F4A7DE056">
-            <extensionElements>
-                <activiti:executionListener class="com.ljh.activitidemo.demo.TestExecutionListener" event="start"/>
-            </extensionElements>
         </userTask>
         <endEvent id="sid-9E80FFF1-12EB-442E-97E9-BE1D9BA9E80F"></endEvent>
         <sequenceFlow id="sid-E8222FD7-8056-40B5-9D9F-31D63AC420A2" sourceRef="startEvent1"
                       targetRef="sid-7E0CDC25-8D69-4F59-AF52-163F4A7DE056"></sequenceFlow>
-        <userTask id="sid-CD8D4186-D4D6-4099-AB3F-1C2135A80744"></userTask>
+        <userTask id="sid-CD8D4186-D4D6-4099-AB3F-1C2135A80744" activiti:assignee="${multiInstanceCollectionVariable}">
+            <multiInstanceLoopCharacteristics isSequential="false" activiti:collection="${arrayList}" activiti:elementVariable="multiInstanceCollectionVariable">
+                <completionCondition>${nrOfCompletedInstances==nrOfInstances}</completionCondition>
+            </multiInstanceLoopCharacteristics>
+        </userTask>
         <userTask id="sid-37B213C4-50CB-4F66-8ACC-B62344CE4E27"></userTask>
         <sequenceFlow id="sid-E232CA2D-52E3-444C-B3B5-C1FB0BA25324" sourceRef="sid-7E0CDC25-8D69-4F59-AF52-163F4A7DE056"
                       targetRef="sid-CD8D4186-D4D6-4099-AB3F-1C2135A80744"></sequenceFlow>

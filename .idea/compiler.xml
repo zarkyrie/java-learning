@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="security-demo" />
         <module name="base-demo" />
+        <module name="security-demo-client" />
         <module name="activiti-demo" />
       </profile>
     </annotationProcessing>
@@ -28,6 +28,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="activiti-demo" options="-parameters" />
       <module name="hateoas" options="-parameters" />
+      <module name="security-demo-client" options="-parameters" />
     </option>
   </component>
 </project>

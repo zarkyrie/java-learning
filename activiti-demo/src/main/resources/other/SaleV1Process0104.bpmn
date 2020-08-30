@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="https://www.blchina.com/workflow" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" expressionLanguage="http://www.w3.org/1999/XPath" id="m1545122831089" name="" targetNamespace="https://www.blchina.com/workflow" typeLanguage="http://www.w3.org/2001/XMLSchema">
+  <message id="MSG_1" name="MSG_PAID"/>
+  <message id="MSG_2" name="MSG_MOBYLOCKCAR"/>
+  <message id="MSG_3" name="MSG_SAPLOCKCAR"/>
+  <message id="MSG_4" name="MSG_DEPOSIT"/>
+  <message id="MSG_6" name="MSG_APPOINTMENT"/>
+  <message id="MSG_5" name="MSG_BILLING"/>
+  <process id="SaleV1Process" isClosed="false" isExecutable="true" processType="None">
+    <startEvent id="startevent1" name="姘撶倝搴愯寕椹撮檰蹇欓┐搴愯寕椹撮檰"/>
+    <parallelGateway gatewayDirection="Unspecified" id="parallelgateway1" name="鑼呴檵鍟繖鑼犳幊鍗垾婵冿拷妯忣灎璁℃崡位鍠℃緷銉傚緵�??"/>
+    <intermediateCatchEvent id="MOBY_LOCK_CAR_MSG" name="Moby鑼呴垾鎾?妫点仮閾扮煫尾琛★拷纬尾闊澒顭婇煭�??顭婎灎锟?">
+      <messageEventDefinition id="IntermediateThrowEvent_00rq1ne_ED_1" messageRef="MSG_2"/>
+    </intermediateCatchEvent>
+    <sequenceFlow id="SequenceFlow_0avjix8" sourceRef="parallelgateway1" targetRef="MOBY_LOCK_CAR_MSG"/>
+    <intermediateCatchEvent id="DEPOSIT_MSG" name="鑾介垾娅�?�锛枴锛Ｎ茬锟界妴锟??楣胯寕椹撮檰">
+      <messageEventDefinition id="IntermediateThrowEvent_14zlv9z_ED_1" messageRef="MSG_4"/>
+    </intermediateCatchEvent>
+    <intermediateCatchEvent id="APPOINTMENT_MSG" name="蹇欐嫝鎺虫皳閳ュ顒笺儌�???">
+      <messageEventDefinition id="IntermediateThrowEvent_0w2evcu_ED_1" messageRef="MSG_6"/>
+    </intermediateCatchEvent>
+    <sequenceFlow id="SequenceFlow_11wswn4" sourceRef="parallelgateway1" targetRef="APPOINTMENT_MSG"/>
+    <userTask activiti:exclusive="true" id="SAP_DISTRIBUTE-JINRONG" name="鑼呰仹閳ユ緷褉锟芥寰楋腹锟芥鐘嗏斁锟芥拃瑁佄诲枴锛ｏ�???"/>
+    <userTask activiti:exclusive="true" id="BALANCE-SHANGWU" name="蹇欑鑹欒尗閳ユ埃锟轿�???锟界妳顑炪儌銊拷鐘嗩嚪�???"/>
+    <userTask activiti:exclusive="true" id="INSURANCE-CHENGBAO" name="鑼呰仹閳ユ緷褉锟芥寰楋腹锟芥鐘單叉緹涔咁嚪鍏夛拷姣差偀锟斤�?"/>
+    <userTask activiti:exclusive="true" id="INVOICE_TO_BANK-JINRONG" name="鑾界閳ユ噴顭婎啓瓒佄插ゥ纬褉锟芥顬°儮锟藉顑炍甸煭鈭垛敒宥侊拷娅仮鎮哥柕锔癸拷妯庢车顬犳劏锟藉ソ顕凤拷?"/>
+    <userTask activiti:exclusive="true" id="SERVICE-YANCHE" name="鑼呰仹閳ユ緷褉锟芥寰楋腹锟芥鐘嗏敒寰�?枹銉傚灈锟轿炽儌顬ｏ�?"/>
+    <sequenceFlow id="SequenceFlow_1imeojp" name="鑼呰�?鑼犺幗鑹╂綖蹇欐綖閳ノ斥斁锟芥柡锟界伝鈶╋拷鈶╋拷姣插浼扁敒寰﹀枹銉傚灈锟轿炽儌�???" sourceRef="inclusivegateway1" targetRef="SERVICE-YANCHE">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${insurance == 0 && service == 1}]]></conditionExpression>
+    </sequenceFlow>
+    <userTask activiti:exclusive="true" id="BOUTIQUE-JINGPIN" name="鑾介�?顑濆銉傘仴鐭喒锟芥枆鐘嗩灎�?�︻啔味鎹栴灐尾鎯碉�?"/>
+    <sequenceFlow id="SequenceFlow_12sobix" name="鑼呰�?钘涙皳闄囪墬鑾芥幊椹磋寘鑱ц伜鑼傞�??" sourceRef="inclusivegateway1" targetRef="BOUTIQUE-JINGPIN">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${boutique == 1}]]></conditionExpression>
+    </sequenceFlow>
+    <userTask activiti:exclusive="true" id="INVOICE-SHOUYIN" name="姘撶倝搴愯寕椹撮檰鑾界鑱涜寕椹撮檰"/>
+    <userTask activiti:exclusive="true" id="AUTO_SAP-KUAIJI" name="姘撶瘬閳ユ簫銉拷妯庢噴銉傦�??"/>
+    <userTask activiti:exclusive="true" id="FINISH_FLOW-JIAOCHE" name="蹇欑鑹欒尗閳ユ鍠⑽诧�??"/>
+    <userTask activiti:exclusive="true" id="APPOINTMENT-SHANGWU" name="鑾芥綖棰呭嵂閳ョ妳妫殿喒锟斤�??"/>
+    <sequenceFlow id="SequenceFlow_1ptqgof" sourceRef="parallelgateway1" targetRef="SAP_LOCK_CAR_MSG"/>
+    <intermediateCatchEvent id="SAP_LOCK_CAR_MSG" name="SAP鑼呴垾鎾?妫点仮閾扮煫尾琛★拷纬尾闊澒顭婇煭�??顭婎灎锟?">
+      <messageEventDefinition id="IntermediateThrowEvent_1fz1umw_ED_1" messageRef="MSG_3"/>
+    </intermediateCatchEvent>
+    <parallelGateway gatewayDirection="Unspecified" id="parallelgateway5" name="鑼呴檵鍟繖鑼犳幊鍗垾婵冿拷妯忣灎璁℃崡位鍠℃緷銉傚緵�??"/>
+    <sequenceFlow id="SequenceFlow_0gj7qku" sourceRef="APPOINTMENT-SHANGWU" targetRef="parallelgateway5"/>
+    <endEvent id="endevent1" name="鑾藉綍鑱涘繖閳ユ鐤滴诧�??"/>
+    <userTask activiti:exclusive="true" id="BILLING_CONFIRM-SHOUYIN" name="鑾芥綖棰呭嵂閳ョ妳妫殿喒锟轿插够顬犳偢浼憋腹锟芥鐫�??锟解挋锟?"/>
+    <sequenceFlow id="SequenceFlow_1r5l1aq" sourceRef="parallelgateway1" targetRef="PAID_MSG"/>
+    <intermediateCatchEvent id="PAID_MSG" name="鑼呰�??鍗棝閳┾挌顬犵寽锟?">
+      <messageEventDefinition id="MessageEventDefinition_1385e71" messageRef="MSG_1"/>
+    </intermediateCatchEvent>
+    <userTask activiti:exclusive="true" id="PAID_CONFIRM-SHOUYIN" name="鑼呰�??姘撹伣閳モ挌锔癸拷妯庢车顬犻儩顒碱喒锟界妳妫殿喒锟斤�??"/>
+    <userTask activiti:exclusive="true" id="MOBY_LOCK_CAR-JIHUA" name="鑾介垾娅�?�锟??椴佹皳鍟伜鑼呰仹閳ュソ尾顭婂ソ顬犲皷锟芥簫尾婢熶箙顕凤�??"/>
+    <sequenceFlow id="SequenceFlow_1d4bizn" sourceRef="MOBY_LOCK_CAR_MSG" targetRef="MOBY_LOCK_CAR-JIHUA"/>
+    <userTask activiti:exclusive="true" id="SAP_LOCK_CAR-JIHUA" name="蹇欓湶閳ユ簫顬犲嚢婧嵨诧�??鑼呰仹钘存皳閳ユ埃鍔夎幗鍗㈤垾纬鈹炲秮锟芥枂顕凤�??"/>
+    <sequenceFlow id="SequenceFlow_1itw07e" sourceRef="SAP_LOCK_CAR_MSG" targetRef="SAP_LOCK_CAR-JIHUA"/>
+    <sequenceFlow id="SequenceFlow_1xs77sv" sourceRef="SERVICE-YANCHE" targetRef="inclusivegateway4"/>
+    <sequenceFlow id="SequenceFlow_0bmlsaa" sourceRef="BOUTIQUE-JINGPIN" targetRef="inclusivegateway4"/>
+    <sequenceFlow id="SequenceFlow_0r1opbi" sourceRef="FINISH_FLOW-JIAOCHE" targetRef="parallelgateway5"/>
+    <sequenceFlow id="SequenceFlow_1rp0tm0" sourceRef="AUTO_SAP-KUAIJI" targetRef="inclusivegateway4"/>
+    <sequenceFlow id="SequenceFlow_133h0mt" sourceRef="parallelgateway5" targetRef="endevent1"/>
+    <sequenceFlow id="SequenceFlow_067i00g" sourceRef="PAID_MSG" targetRef="PAID_CONFIRM-SHOUYIN"/>
+    <sequenceFlow id="SequenceFlow_1yhizea" sourceRef="SAP_LOCK_CAR-JIHUA" targetRef="parallelgateway5"/>
+    <sequenceFlow id="SequenceFlow_0u1bypc" sourceRef="MOBY_LOCK_CAR-JIHUA" targetRef="parallelgateway5"/>
+    <sequenceFlow id="SequenceFlow_0qajypf" sourceRef="inclusivegateway4" targetRef="FINISH_FLOW-JIAOCHE"/>
+    <sequenceFlow id="SequenceFlow_0b62r3f" sourceRef="APPOINTMENT_MSG" targetRef="APPOINTMENT-SHANGWU"/>
+    <sequenceFlow id="SequenceFlow_05i4h3w" sourceRef="startevent1" targetRef="parallelgateway1"/>
+    <sequenceFlow id="SequenceFlow_1b7792q" sourceRef="PAID_CONFIRM-SHOUYIN" targetRef="PAID_MSG"/>
+    <sequenceFlow id="SequenceFlow_1xefka1" sourceRef="INVOICE-SHOUYIN" targetRef="inclusivegateway1"/>
+    <sequenceFlow id="SequenceFlow_12hfgbl" sourceRef="SAP_DISTRIBUTE-JINRONG" targetRef="BILLING_MSG"/>
+    <intermediateCatchEvent id="BILLING_MSG" name="鑾藉綍鑱涘繖閳ユ鐫�??锟斤�??">
+      <messageEventDefinition id="IntermediateThrowEvent_0c4f03j_ED_1" messageRef="MSG_5"/>
+    </intermediateCatchEvent>
+    <sequenceFlow id="SequenceFlow_15iasof" sourceRef="BILLING_MSG" targetRef="BILLING_CONFIRM-SHOUYIN"/>
+    <inclusiveGateway gatewayDirection="Unspecified" id="inclusivegateway1" name="鑼呰仹閳ユ拋銉拷妯庮劶顔癸拷鐘呮兎顬犺鎹椢诲枴婢濄儌寰涳�?"/>
+    <inclusiveGateway gatewayDirection="Unspecified" id="inclusivegateway4" name="鑼呰仹閳ユ拋銉拷妯庮劶顔癸拷鐘呮兎顬犺鎹椢诲枴婢濄儌寰涳�?"/>
+    <inclusiveGateway gatewayDirection="Unspecified" id="inclusivegateway3" name="鑼呰仹閳ユ拋銉拷妯庮劶顔癸拷鐘呮兎顬犺鎹椢诲枴婢濄儌寰涳�?"/>
+    <sequenceFlow id="SequenceFlow_1j95pw3" name="鑼呰�?钘涙皳闄囨菠蹇欐綖閳ノ斥斁锟芥柡锟界伝顕凤拷?" sourceRef="inclusivegateway1" targetRef="INSURANCE-CHENGBAO">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${insurance == 1}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="SequenceFlow_0jspjxs" name="鑼呰�?鑼犺幗鑹╂綖蹇欐綖閳ノ斥斁锟芥柡锟界伝鈶╋拷鈶╋拷姣插浼扁斁锟芥拃瑁佄诲枴锛�??�???" sourceRef="inclusivegateway1" targetRef="INVOICE_TO_BANK-JINRONG">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${installment == 1 && insurance == 0}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="SequenceFlow_0jtol0e" sourceRef="INSURANCE-CHENGBAO" targetRef="inclusivegateway3"/>
+    <sequenceFlow id="SequenceFlow_1oq5fyf" name="鑼呰�?钘涙皳闄囬垾濮懳插厜锟解埗鈹炲秮锟芥緷顕凤拷?" sourceRef="inclusivegateway3" targetRef="SERVICE-YANCHE">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${service == 1}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="SequenceFlow_00f4ods" name="鑼呰�?钘涙皳闄囪伂姘撻埄鈷欎箙鈹撅拷婧屽够顕凤�??" sourceRef="inclusivegateway3" targetRef="INVOICE_TO_BANK-JINRONG">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${installment == 1}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="SequenceFlow_1rt2lta" name="鑼呰�?鑼犺幗鑹╅瞾蹇欓箍閳モ埗鈹炲秮锟芥緷鈶╋拷鐐傛崡尾锛€仯鈹撅拷鎾?瑁佄诲枴锛Ｑ?�???" sourceRef="inclusivegateway3" targetRef="inclusivegateway4">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${service ==0 && installment == 0}]]></conditionExpression>
+    </sequenceFlow>
+    <inclusiveGateway gatewayDirection="Unspecified" id="ExclusiveGateway_0whjay3" name="鑼呰仹閳ユ拋銉拷妯庮劶顔癸拷鐘呮兎顬犺鎹椢诲枴婢濄儌寰涳�?"/>
+    <sequenceFlow id="_3" sourceRef="BILLING_CONFIRM-SHOUYIN" targetRef="ExclusiveGateway_0whjay3"/>
+    <sequenceFlow id="_2" name="鑼呰�?鑼犺幗鑹╃姘撻埄鈷欎箙鈹撅拷婧屽够銉傚灈锟芥噴尾閾�??⑩敒宓氬緷锝傦拷鐏何愁啙�???" sourceRef="ExclusiveGateway_0whjay3" targetRef="BALANCE-SHANGWU">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${installment == 0 && paragraph == 0}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="_4" name="鑼呰�?钘涙皳闄囪伂姘撻埄鈷欎箙鈹撅拷婧屽够銉傚灈锟界妴銉呴煭顭嬧斁锟芥◣鎳娿儮锟芥◣顔毼差灎璇モ敒宓氬緷锝傦拷鐏何愁啙鎺嗗�?" sourceRef="ExclusiveGateway_0whjay3" targetRef="INVOICE-SHOUYIN">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${installment == 1 || paragraph == 1}]]></conditionExpression>
+    </sequenceFlow>
+    <inclusiveGateway gatewayDirection="Unspecified" id="inclusivegateway5" name="鑼呰仹閳ユ拋銉拷妯庮劶顔癸拷鐘呮兎顬犺鎹椢诲枴婢濄儌寰涳�?"/>
+    <sequenceFlow id="_7" sourceRef="BALANCE-SHANGWU" targetRef="inclusivegateway5"/>
+    <sequenceFlow id="_8" sourceRef="inclusivegateway5" targetRef="AUTO_SAP-KUAIJI"/>
+    <sequenceFlow id="_9" sourceRef="inclusivegateway5" targetRef="INVOICE-SHOUYIN"/>
+    <sequenceFlow id="_10" sourceRef="INVOICE_TO_BANK-JINRONG" targetRef="AUTO_SAP-KUAIJI"/>
+    <sequenceFlow id="_16" sourceRef="parallelgateway1" targetRef="DEPOSIT_MSG"/>
+    <inclusiveGateway gatewayDirection="Unspecified" id="_13" name="鑼呰仹閳ユ拋銉拷妯庮劶顔癸拷鐘呮兎顬犺鎹椢诲枴婢濄儌寰涳�?"/>
+    <sequenceFlow id="_14" sourceRef="DEPOSIT_MSG" targetRef="_13"/>
+    <sequenceFlow id="_15" name="鑼呴垾鏂斿枹褉锟芥瑁併儌寰涘緷銉傘劉锟界妴尾宓氭兎顔癸拷尾濮懳叉緹涔咁喒锟界偐鍋撹幗閳ワ拷?" sourceRef="_13" targetRef="SAP_DISTRIBUTE-JINRONG">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${paragraph == 0}]]></conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="_17" name="鑼呰仹鑱尗閳ョ伜纬顔濇巻鍔夎寘鑱紡姘撻钘存皳璧傞簱鑾藉綍鑱涘繖閳ユ鐫�??锟斤�??" sourceRef="_13" targetRef="BILLING_MSG">
+      <conditionExpression xsi:type="tFormalExpression"><![CDATA[${paragraph == 1}]]></conditionExpression>
+    </sequenceFlow>
+  </process>
+  <bpmndi:BPMNDiagram documentation="background=#3C3F41;count=2;horizontalcount=3;orientation=0;width=842.4;height=1195.2;imageableWidth=832.4;imageableHeight=1185.2;imageableX=5.0;imageableY=5.0" id="Diagram-_1" name="New Diagram">
+    <bpmndi:BPMNPlane bpmnElement="SaleV1Process">
+      <bpmndi:BPMNShape bpmnElement="startevent1" id="Shape-startevent1">
+        <omgdc:Bounds height="32.0" width="32.0" x="75.0" y="127.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="parallelgateway1" id="Shape-parallelgateway1">
+        <omgdc:Bounds height="32.0" width="32.0" x="171.0" y="129.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="MOBY_LOCK_CAR_MSG" id="Shape-MOBY_LOCK_CAR_MSG">
+        <omgdc:Bounds height="32.0" width="32.0" x="259.0" y="223.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="DEPOSIT_MSG" id="Shape-DEPOSIT_MSG">
+        <omgdc:Bounds height="32.0" width="32.0" x="255.0" y="440.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="APPOINTMENT_MSG" id="Shape-APPOINTMENT_MSG">
+        <omgdc:Bounds height="32.0" width="32.0" x="255.0" y="505.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="SAP_DISTRIBUTE-JINRONG" id="Shape-SAP_DISTRIBUTE-JINRONG">
+        <omgdc:Bounds height="55.0" width="105.0" x="335.0" y="420.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="BALANCE-SHANGWU" id="Shape-BALANCE-SHANGWU">
+        <omgdc:Bounds height="55.0" width="105.0" x="600.0" y="415.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="INSURANCE-CHENGBAO" id="Shape-INSURANCE-CHENGBAO">
+        <omgdc:Bounds height="55.0" width="105.0" x="957.0" y="175.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="INVOICE_TO_BANK-JINRONG" id="Shape-INVOICE_TO_BANK-JINRONG">
+        <omgdc:Bounds height="55.0" width="105.0" x="957.0" y="263.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="SERVICE-YANCHE" id="Shape-SERVICE-YANCHE">
+        <omgdc:Bounds height="55.0" width="105.0" x="957.0" y="99.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="BOUTIQUE-JINGPIN" id="Shape-BOUTIQUE-JINGPIN">
+        <omgdc:Bounds height="55.0" width="105.0" x="957.0" y="502.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="INVOICE-SHOUYIN" id="Shape-INVOICE-SHOUYIN">
+        <omgdc:Bounds height="55.0" width="105.0" x="726.0" y="300.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="AUTO_SAP-KUAIJI" id="Shape-AUTO_SAP-KUAIJI">
+        <omgdc:Bounds height="55.0" width="105.0" x="957.0" y="415.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="FINISH_FLOW-JIAOCHE" id="Shape-FINISH_FLOW-JIAOCHE">
+        <omgdc:Bounds height="55.0" width="105.0" x="1317.0" y="289.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="APPOINTMENT-SHANGWU" id="Shape-APPOINTMENT-SHANGWU">
+        <omgdc:Bounds height="55.0" width="105.0" x="330.0" y="490.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="SAP_LOCK_CAR_MSG" id="Shape-SAP_LOCK_CAR_MSG">
+        <omgdc:Bounds height="32.0" width="32.0" x="259.0" y="301.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="parallelgateway5" id="Shape-parallelgateway5">
+        <omgdc:Bounds height="32.0" width="32.0" x="1453.0" y="301.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="endevent1" id="Shape-endevent1">
+        <omgdc:Bounds height="32.0" width="32.0" x="1527.0" y="304.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="BILLING_CONFIRM-SHOUYIN" id="Shape-BILLING_CONFIRM-SHOUYIN">
+        <omgdc:Bounds height="55.0" width="105.0" x="472.0" y="291.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="PAID_MSG" id="Shape-PAID_MSG">
+        <omgdc:Bounds height="32.0" width="32.0" x="259.0" y="136.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="PAID_CONFIRM-SHOUYIN" id="Shape-PAID_CONFIRM-SHOUYIN">
+        <omgdc:Bounds height="55.0" width="105.0" x="329.0" y="124.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="MOBY_LOCK_CAR-JIHUA" id="Shape-MOBY_LOCK_CAR-JIHUA">
+        <omgdc:Bounds height="55.0" width="105.0" x="329.0" y="213.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="SAP_LOCK_CAR-JIHUA" id="Shape-SAP_LOCK_CAR-JIHUA">
+        <omgdc:Bounds height="55.0" width="105.0" x="329.0" y="291.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="55.0" width="105.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="BILLING_MSG" id="Shape-BILLING_MSG">
+        <omgdc:Bounds height="32.0" width="32.0" x="507.0" y="388.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="inclusivegateway1" id="Shape-inclusivegateway1">
+        <omgdc:Bounds height="32.0" width="32.0" x="875.0" y="310.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="inclusivegateway4" id="Shape-inclusivegateway4">
+        <omgdc:Bounds height="32.0" width="32.0" x="1234.0" y="295.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="inclusivegateway3" id="Shape-inclusivegateway3">
+        <omgdc:Bounds height="32.0" width="32.0" x="1093.0" y="178.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="ExclusiveGateway_0whjay3" id="Shape-ExclusiveGateway_0whjay3">
+        <omgdc:Bounds height="32.0" width="32.0" x="636.0" y="303.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="inclusivegateway5" id="Shape-inclusivegateway5">
+        <omgdc:Bounds height="32.0" width="32.0" x="775.0" y="425.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape bpmnElement="_13" id="Shape-_13">
+        <omgdc:Bounds height="32.0" width="32.0" x="260.0" y="370.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_0jspjxs" id="BPMNEdge_SequenceFlow_0jspjxs" sourceElement="inclusivegateway1" targetElement="INVOICE_TO_BANK-JINRONG">
+        <omgdi:waypoint x="905.0" y="324.0"/>
+        <omgdi:waypoint x="905.0" y="340.0"/>
+        <omgdi:waypoint x="957.0" y="290.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="14.0" width="66.0" x="105.0" y="5.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_0b62r3f" id="BPMNEdge_SequenceFlow_0b62r3f" sourceElement="APPOINTMENT_MSG" targetElement="APPOINTMENT-SHANGWU">
+        <omgdi:waypoint x="287.0" y="521.0"/>
+        <omgdi:waypoint x="330.0" y="517.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_05i4h3w" id="BPMNEdge_SequenceFlow_05i4h3w" sourceElement="startevent1" targetElement="parallelgateway1">
+        <omgdi:waypoint x="107.0" y="143.0"/>
+        <omgdi:waypoint x="139.0" y="143.0"/>
+        <omgdi:waypoint x="139.0" y="145.0"/>
+        <omgdi:waypoint x="173.0" y="143.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_11wswn4" id="BPMNEdge_SequenceFlow_11wswn4" sourceElement="parallelgateway1" targetElement="APPOINTMENT_MSG">
+        <omgdi:waypoint x="196.0" y="152.0"/>
+        <omgdi:waypoint x="196.0" y="485.0"/>
+        <omgdi:waypoint x="255.0" y="521.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_12sobix" id="BPMNEdge_SequenceFlow_12sobix" sourceElement="inclusivegateway1" targetElement="BOUTIQUE-JINGPIN">
+        <omgdi:waypoint x="904.0" y="329.0"/>
+        <omgdi:waypoint x="904.0" y="530.0"/>
+        <omgdi:waypoint x="957.0" y="530.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="14.0" width="33.0" x="117.0" y="19.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1xs77sv" id="BPMNEdge_SequenceFlow_1xs77sv" sourceElement="SERVICE-YANCHE" targetElement="inclusivegateway4">
+        <omgdi:waypoint x="1062.0" y="127.0"/>
+        <omgdi:waypoint x="1268.0" y="127.0"/>
+        <omgdi:waypoint x="1266.0" y="311.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1xefka1" id="BPMNEdge_SequenceFlow_1xefka1" sourceElement="INVOICE-SHOUYIN" targetElement="inclusivegateway1">
+        <omgdi:waypoint x="831.0" y="328.0"/>
+        <omgdi:waypoint x="853.0" y="328.0"/>
+        <omgdi:waypoint x="853.0" y="338.0"/>
+        <omgdi:waypoint x="877.0" y="328.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_0gj7qku" id="BPMNEdge_SequenceFlow_0gj7qku" sourceElement="APPOINTMENT-SHANGWU" targetElement="parallelgateway5">
+        <omgdi:waypoint x="382.5" y="545.0"/>
+        <omgdi:waypoint x="440.0" y="590.0"/>
+        <omgdi:waypoint x="1406.0" y="826.0"/>
+        <omgdi:waypoint x="1469.0" y="333.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_0bmlsaa" id="BPMNEdge_SequenceFlow_0bmlsaa" sourceElement="BOUTIQUE-JINGPIN" targetElement="inclusivegateway4">
+        <omgdi:waypoint x="1062.0" y="530.0"/>
+        <omgdi:waypoint x="1250.0" y="530.0"/>
+        <omgdi:waypoint x="1250.0" y="327.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_2" id="BPMNEdge__2" sourceElement="ExclusiveGateway_0whjay3" targetElement="BALANCE-SHANGWU">
+        <omgdi:waypoint x="650.0" y="333.0"/>
+        <omgdi:waypoint x="650.0" y="380.0"/>
+        <omgdi:waypoint x="650.0" y="415.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_12hfgbl" id="BPMNEdge_SequenceFlow_12hfgbl" sourceElement="SAP_DISTRIBUTE-JINRONG" targetElement="BILLING_MSG">
+        <omgdi:waypoint x="440.0" y="447.5"/>
+        <omgdi:waypoint x="507.0" y="404.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_3" id="BPMNEdge__3" sourceElement="BILLING_CONFIRM-SHOUYIN" targetElement="ExclusiveGateway_0whjay3">
+        <omgdi:waypoint x="577.0" y="318.5"/>
+        <omgdi:waypoint x="636.0" y="319.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_4" id="BPMNEdge__4" sourceElement="ExclusiveGateway_0whjay3" targetElement="INVOICE-SHOUYIN">
+        <omgdi:waypoint x="668.0" y="319.0"/>
+        <omgdi:waypoint x="726.0" y="327.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_7" id="BPMNEdge__7" sourceElement="BALANCE-SHANGWU" targetElement="inclusivegateway5">
+        <omgdi:waypoint x="705.0" y="442.5"/>
+        <omgdi:waypoint x="775.0" y="441.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_8" id="BPMNEdge__8" sourceElement="inclusivegateway5" targetElement="AUTO_SAP-KUAIJI">
+        <omgdi:waypoint x="807.0" y="441.0"/>
+        <omgdi:waypoint x="957.0" y="442.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_9" id="BPMNEdge__9" sourceElement="inclusivegateway5" targetElement="INVOICE-SHOUYIN">
+        <omgdi:waypoint x="791.0" y="425.0"/>
+        <omgdi:waypoint x="791.0" y="355.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_0avjix8" id="BPMNEdge_SequenceFlow_0avjix8" sourceElement="parallelgateway1" targetElement="MOBY_LOCK_CAR_MSG">
+        <omgdi:waypoint x="196.0" y="152.0"/>
+        <omgdi:waypoint x="196.0" y="241.0"/>
+        <omgdi:waypoint x="259.12549213361245" y="241.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_10" id="BPMNEdge__10" sourceElement="INVOICE_TO_BANK-JINRONG" targetElement="AUTO_SAP-KUAIJI">
+        <omgdi:waypoint x="1010.0" y="318.0"/>
+        <omgdi:waypoint x="1010.0" y="348.0"/>
+        <omgdi:waypoint x="1010.0" y="415.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1ptqgof" id="BPMNEdge_SequenceFlow_1ptqgof" sourceElement="parallelgateway1" targetElement="SAP_LOCK_CAR_MSG">
+        <omgdi:waypoint x="196.0" y="152.0"/>
+        <omgdi:waypoint x="196.0" y="319.0"/>
+        <omgdi:waypoint x="259.12549213361245" y="319.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1yhizea" id="BPMNEdge_SequenceFlow_1yhizea" sourceElement="SAP_LOCK_CAR-JIHUA" targetElement="parallelgateway5">
+        <omgdi:waypoint x="381.5" y="291.0"/>
+        <omgdi:waypoint x="580.0" y="62.0"/>
+        <omgdi:waypoint x="1267.0" y="81.0"/>
+        <omgdi:waypoint x="1469.0" y="301.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_15" id="BPMNEdge__15" sourceElement="_13" targetElement="SAP_DISTRIBUTE-JINRONG">
+        <omgdi:waypoint x="292.0" y="386.0"/>
+        <omgdi:waypoint x="305.0" y="445.0"/>
+        <omgdi:waypoint x="335.0" y="445.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1imeojp" id="BPMNEdge_SequenceFlow_1imeojp" sourceElement="inclusivegateway1" targetElement="SERVICE-YANCHE">
+        <omgdi:waypoint x="904.0" y="323.0"/>
+        <omgdi:waypoint x="904.0" y="127.0"/>
+        <omgdi:waypoint x="957.0" y="127.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="14.0" width="66.0" x="101.0" y="-49.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_14" id="BPMNEdge__14" sourceElement="DEPOSIT_MSG" targetElement="_13">
+        <omgdi:waypoint x="265.0" y="441.16760302580866"/>
+        <omgdi:waypoint x="265.0" y="425.0"/>
+        <omgdi:waypoint x="265.0" y="391.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_17" id="BPMNEdge__17" sourceElement="_13" targetElement="BILLING_MSG">
+        <omgdi:waypoint x="292.0" y="386.0"/>
+        <omgdi:waypoint x="507.0" y="404.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="_16" id="BPMNEdge__16" sourceElement="parallelgateway1" targetElement="DEPOSIT_MSG">
+        <omgdi:waypoint x="195.0" y="153.0"/>
+        <omgdi:waypoint x="195.0" y="305.0"/>
+        <omgdi:waypoint x="255.0" y="456.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_133h0mt" id="BPMNEdge_SequenceFlow_133h0mt" sourceElement="parallelgateway5" targetElement="endevent1">
+        <omgdi:waypoint x="1485.0" y="317.0"/>
+        <omgdi:waypoint x="1506.0" y="317.0"/>
+        <omgdi:waypoint x="1506.0" y="320.0"/>
+        <omgdi:waypoint x="1527.2837663544983" y="317.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_0jtol0e" id="BPMNEdge_SequenceFlow_0jtol0e" sourceElement="INSURANCE-CHENGBAO" targetElement="inclusivegateway3">
+        <omgdi:waypoint x="1062.0" y="202.5"/>
+        <omgdi:waypoint x="1093.0" y="194.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1itw07e" id="BPMNEdge_SequenceFlow_1itw07e" sourceElement="SAP_LOCK_CAR_MSG" targetElement="SAP_LOCK_CAR-JIHUA">
+        <omgdi:waypoint x="291.0" y="317.0"/>
+        <omgdi:waypoint x="329.0" y="318.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1rt2lta" id="BPMNEdge_SequenceFlow_1rt2lta" sourceElement="inclusivegateway3" targetElement="inclusivegateway4">
+        <omgdi:waypoint x="1116.0" y="203.0"/>
+        <omgdi:waypoint x="1250.0" y="203.0"/>
+        <omgdi:waypoint x="1250.0" y="295.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="14.0" width="66.0" x="95.0" y="8.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1j95pw3" id="BPMNEdge_SequenceFlow_1j95pw3" sourceElement="inclusivegateway1" targetElement="INSURANCE-CHENGBAO">
+        <omgdi:waypoint x="886.0" y="315.0"/>
+        <omgdi:waypoint x="886.0" y="203.0"/>
+        <omgdi:waypoint x="957.0" y="203.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="14.0" width="33.0" x="119.0" y="21.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1b7792q" id="BPMNEdge_SequenceFlow_1b7792q" sourceElement="PAID_CONFIRM-SHOUYIN" targetElement="PAID_MSG">
+        <omgdi:waypoint x="382.0" y="124.0"/>
+        <omgdi:waypoint x="382.0" y="80.0"/>
+        <omgdi:waypoint x="275.0" y="80.0"/>
+        <omgdi:waypoint x="275.0" y="136.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1rp0tm0" id="BPMNEdge_SequenceFlow_1rp0tm0" sourceElement="AUTO_SAP-KUAIJI" targetElement="inclusivegateway4">
+        <omgdi:waypoint x="1062.0" y="443.0"/>
+        <omgdi:waypoint x="1259.0" y="443.0"/>
+        <omgdi:waypoint x="1259.0" y="318.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_0r1opbi" id="BPMNEdge_SequenceFlow_0r1opbi" sourceElement="FINISH_FLOW-JIAOCHE" targetElement="parallelgateway5">
+        <omgdi:waypoint x="1422.0" y="316.5"/>
+        <omgdi:waypoint x="1453.0" y="317.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1d4bizn" id="BPMNEdge_SequenceFlow_1d4bizn" sourceElement="MOBY_LOCK_CAR_MSG" targetElement="MOBY_LOCK_CAR-JIHUA">
+        <omgdi:waypoint x="291.0" y="239.0"/>
+        <omgdi:waypoint x="329.0" y="240.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_0qajypf" id="BPMNEdge_SequenceFlow_0qajypf" sourceElement="inclusivegateway4" targetElement="FINISH_FLOW-JIAOCHE">
+        <omgdi:waypoint x="1257.0" y="320.0"/>
+        <omgdi:waypoint x="1296.0" y="320.0"/>
+        <omgdi:waypoint x="1296.0" y="317.0"/>
+        <omgdi:waypoint x="1317.0" y="320.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1r5l1aq" id="BPMNEdge_SequenceFlow_1r5l1aq" sourceElement="parallelgateway1" targetElement="PAID_MSG">
+        <omgdi:waypoint x="203.0" y="145.0"/>
+        <omgdi:waypoint x="259.0" y="152.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_067i00g" id="BPMNEdge_SequenceFlow_067i00g" sourceElement="PAID_MSG" targetElement="PAID_CONFIRM-SHOUYIN">
+        <omgdi:waypoint x="291.0" y="152.0"/>
+        <omgdi:waypoint x="329.0" y="151.5"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_00f4ods" id="BPMNEdge_SequenceFlow_00f4ods" sourceElement="inclusivegateway3" targetElement="INVOICE_TO_BANK-JINRONG">
+        <omgdi:waypoint x="1110.0" y="209.0"/>
+        <omgdi:waypoint x="1110.0" y="300.0"/>
+        <omgdi:waypoint x="1062.0" y="300.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="14.0" width="33.0" x="119.0" y="25.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_1oq5fyf" id="BPMNEdge_SequenceFlow_1oq5fyf" sourceElement="inclusivegateway3" targetElement="SERVICE-YANCHE">
+        <omgdi:waypoint x="1125.0" y="194.0"/>
+        <omgdi:waypoint x="1125.0" y="111.0"/>
+        <omgdi:waypoint x="1062.0" y="111.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="14.0" width="33.0" x="119.00000000000011" y="20.99999999999966"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_0u1bypc" id="BPMNEdge_SequenceFlow_0u1bypc" sourceElement="MOBY_LOCK_CAR-JIHUA" targetElement="parallelgateway5">
+        <omgdi:waypoint x="381.5" y="213.0"/>
+        <omgdi:waypoint x="566.0" y="35.0"/>
+        <omgdi:waypoint x="1308.0" y="50.0"/>
+        <omgdi:waypoint x="1469.0" y="301.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge bpmnElement="SequenceFlow_15iasof" id="BPMNEdge_SequenceFlow_15iasof" sourceElement="BILLING_MSG" targetElement="BILLING_CONFIRM-SHOUYIN">
+        <omgdi:waypoint x="523.0" y="388.0"/>
+        <omgdi:waypoint x="523.0" y="346.0"/>
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds height="-1.0" width="-1.0" x="-1.0" y="-1.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

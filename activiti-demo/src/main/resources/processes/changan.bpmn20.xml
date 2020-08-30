@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" typeLanguage="http://www.w3.org/2001/XMLSchema" expressionLanguage="http://www.w3.org/1999/XPath" targetNamespace="5">
+    <process id="ljhtestaa" name="ljhtesta" isExecutable="true">
+        <startEvent id="sid-4fa20080-84ac-4c01-9aa8-ee2d62aaf349" ></startEvent>
+        <sequenceFlow id="sid-145f00ed-3006-421a-9cd3-67ddc691d99e" sourceRef="sid-4fa20080-84ac-4c01-9aa8-ee2d62aaf349" targetRef="sid-33fea0c7-68f3-4d7f-855f-2b2497663de0"></sequenceFlow>
+        <userTask id="sid-33fea0c7-68f3-4d7f-855f-2b2497663de0">
+            <extensionElements>
+                <activiti:isforbid>true</activiti:isforbid>
+                <activiti:nodebutton>[{"id":1,"name":"提交","code":"SUBMIT","color":null,"type":"startEvent","isDisable":true,"tenantId":null,"isDelete":false,"createBy":null,"createTime":null,"updateBy":null,"updateTime":null}]</activiti:nodebutton>
+                <activiti:neednextapprover>"false"</activiti:neednextapprover>
+                <activiti:nodeType>"start"</activiti:nodeType>
+                <activiti:completioncondition>""</activiti:completioncondition>
+                <activiti:relationurl>""</activiti:relationurl>
+            </extensionElements>
+        </userTask>
+        <userTask id="sid-9765b343-438a-4275-b587-568ace1e9cce">
+            <extensionElements>
+                <activiti:isforbid>true</activiti:isforbid>
+                <activiti:nodebutton>[{"id":2,"name":"驳回","code":"REJECT","color":null,"type":"userTask","isDisable":false,"tenantId":null,"isDelete":false,"createBy":null,"createTime":null,"updateBy":null,"updateTime":null},{"id":3,"name":"代办","code":"DELEGATE","color":null,"type":"userTask","isDisable":false,"tenantId":null,"isDelete":false,"createBy":null,"createTime":null,"updateBy":null,"updateTime":null},{"id":4,"name":"转办","code":"TURN_OVER","color":null,"type":"userTask","isDisable":false,"tenantId":null,"isDelete":false,"createBy":null,"createTime":null,"updateBy":null,"updateTime":null},{"id":5,"name":"提交","code":"SUBMIT","color":null,"type":"userTask","isDisable":true,"tenantId":null,"isDelete":false,"createBy":null,"createTime":null,"updateBy":null,"updateTime":null}]</activiti:nodebutton>
+                <activiti:neednextapprover>"false"</activiti:neednextapprover>
+                <activiti:nodeType>"userTask"</activiti:nodeType>
+                <activiti:completioncondition>""</activiti:completioncondition>
+                <activiti:relationurl>""</activiti:relationurl>
+            </extensionElements>
+        </userTask>
+        <endEvent id="sid-36f232cd-330e-4fea-a92f-c1b179a4fca9"></endEvent>
+        <sequenceFlow id="sid-1ba32afc-e94d-4e2a-8629-3dcc42c9efcc" sourceRef="sid-33fea0c7-68f3-4d7f-855f-2b2497663de0" targetRef="sid-9765b343-438a-4275-b587-568ace1e9cce"></sequenceFlow>
+        <sequenceFlow id="sid-4f695807-6c93-492a-b1a2-4c9eeb84a427" sourceRef="sid-9765b343-438a-4275-b587-568ace1e9cce" targetRef="sid-36f232cd-330e-4fea-a92f-c1b179a4fca9"></sequenceFlow>
+    </process>
+    <bpmndi:BPMNDiagram id="BPMNDiagram_ljhtesta">
+        <bpmndi:BPMNPlane bpmnElement="ljhtesta" id="BPMNPlane_ljhtesta">
+            <bpmndi:BPMNShape bpmnElement="sid-4fa20080-84ac-4c01-9aa8-ee2d62aaf349" id="BPMNShape_sid-4fa20080-84ac-4c01-9aa8-ee2d62aaf349">
+                <omgdc:Bounds height="0.0" width="0.0" x="0.0" y="0.0"></omgdc:Bounds>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="sid-33fea0c7-68f3-4d7f-855f-2b2497663de0" id="BPMNShape_sid-33fea0c7-68f3-4d7f-855f-2b2497663de0">
+                <omgdc:Bounds height="34.0" width="70.0" x="149.0" y="46.0"></omgdc:Bounds>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="sid-9765b343-438a-4275-b587-568ace1e9cce" id="BPMNShape_sid-9765b343-438a-4275-b587-568ace1e9cce">
+                <omgdc:Bounds height="40.0" width="94.0" x="232.0" y="142.0"></omgdc:Bounds>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape bpmnElement="sid-36f232cd-330e-4fea-a92f-c1b179a4fca9" id="BPMNShape_sid-36f232cd-330e-4fea-a92f-c1b179a4fca9">
+                <omgdc:Bounds height="34.0" width="70.0" x="208.0" y="235.0"></omgdc:Bounds>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNEdge bpmnElement="sid-1ba32afc-e94d-4e2a-8629-3dcc42c9efcc" id="BPMNEdge_sid-1ba32afc-e94d-4e2a-8629-3dcc42c9efcc">
+                <omgdi:waypoint x="178.33157894736843" y="80.0"></omgdi:waypoint>
+                <omgdi:waypoint x="232.5" y="142.0"></omgdi:waypoint>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="sid-4f695807-6c93-492a-b1a2-4c9eeb84a427" id="BPMNEdge_sid-4f695807-6c93-492a-b1a2-4c9eeb84a427">
+                <omgdi:waypoint x="232.0" y="144.91666666666666"></omgdi:waypoint>
+                <omgdi:waypoint x="208.62621094857352" y="234.51619136380157"></omgdi:waypoint>
+            </bpmndi:BPMNEdge>
+            <bpmndi:BPMNEdge bpmnElement="sid-145f00ed-3006-421a-9cd3-67ddc691d99e" id="BPMNEdge_sid-145f00ed-3006-421a-9cd3-67ddc691d99e">
+                <omgdi:waypoint x="0.9777506376262328" y="0.1474934854416558"></omgdi:waypoint>
+                <omgdi:waypoint x="149.5" y="46.0"></omgdi:waypoint>
+            </bpmndi:BPMNEdge>
+        </bpmndi:BPMNPlane>
+    </bpmndi:BPMNDiagram>
+</definitions>

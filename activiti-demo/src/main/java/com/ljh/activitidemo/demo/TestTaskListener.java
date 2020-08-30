@@ -1,28 +1,33 @@
 package com.ljh.activitidemo.demo;
 
+import org.activiti.engine.HistoryService;
+import org.activiti.engine.RepositoryService;
+import org.activiti.engine.TaskService;
 import org.activiti.engine.delegate.DelegateHelper;
 import org.activiti.engine.delegate.DelegateTask;
 import org.activiti.engine.delegate.Expression;
 import org.activiti.engine.delegate.TaskListener;
+import org.activiti.engine.task.Comment;
+import org.activiti.engine.task.Task;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
 import java.util.Random;
 
 @Component
 public class TestTaskListener implements TaskListener {
     private Expression expression;
+    private TaskService taskService;
+    private HistoryService historyService;
 
     @Override
     public void notify(DelegateTask delegateTask) {
-        for (int i = 0; i < 10000; i++) {
-            try {
-                Thread.sleep(new Random().nextInt(5));
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println(delegateTask.getProcessInstanceId() + ":" + expression.getExpressionText());
-//            System.out.println(delegateTask.getProcessDefinitionId() + ":" + expression.getExpressionText());
-//            System.out.println(delegateTask.getProcessDefinitionId() + ":" + DelegateHelper.getFieldExpression(delegateTask,"expression"));
+      String taskId =  delegateTask.getId();
+     String processInstanceId =delegateTask.getProcessInstanceId();
+      List<Comment> commentList=taskService.getProcessInstanceComments(processInstanceId,"123");
+        for (Comment comment : commentList) {
         }
+
     }
 }

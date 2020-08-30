@@ -10,6 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>security-demo</artifactId>
+    <packaging>pom</packaging>
 
+    <modules>
+        <module>security-demo-client</module>
+    </modules>
 
+    <dependencyManagement>
+
+    </dependencyManagement>
 </project>
