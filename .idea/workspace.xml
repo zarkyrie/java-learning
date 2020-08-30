@@ -1,379 +1,1194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="985a20ca-a172-4861-8b4b-94f91a69a80a" name="Default Changelist" comment="添加注释">
+    <list default="true" id="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducerSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activiti-demo/src/main/java/com/ljh/activitidemo/StartupApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/activiti-demo/src/main/java/com/ljh/activitidemo/StartupApplication.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list id="8f52f00f-b410-4bb2-9186-6d6757ba30d0" name="ignore" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-832982303">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="17" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="17" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="12" />
-          <entry key="java" value="970" />
-          <entry key="txt" value="22" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="970" />
-          <entry key="PLAIN_TEXT" value="34" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearchSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducerSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SynchronizedSample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="HTTP Public Environment File" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>128</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearchSample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/leetcode/RemoveDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducerSample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java" />
-      </list>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="29" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="3" end1="4" start2="30" end2="36" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
+        <range start1="5" end1="8" start2="37" end2="37" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="9" end1="11" start2="38" end2="38" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="16" end1="55" start2="43" end2="45" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="56" end1="137" start2="46" end2="62" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="141" end1="141" start2="66" end2="68" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="145" end1="150" start2="72" end2="72" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="152" end1="152" start2="74" end2="75" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="153" end1="164" start2="76" end2="86" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="166" end1="171" start2="88" end2="90" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="172" end1="176" start2="91" end2="94" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="177" end1="301" start2="95" end2="98" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="303" end1="304" start2="100" end2="108" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="306" end1="306" start2="110" end2="112" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="308" end1="308" start2="114" end2="135" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="309" end1="318" start2="136" end2="955" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="321" end1="331" start2="958" end2="992" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="335" end1="344" start2="996" end2="1006" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="349" end1="351" start2="1011" end2="1018" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="354" end1="356" start2="1021" end2="1026" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="359" end1="359" start2="1029" end2="1030" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="360" end1="361" start2="1031" end2="1032" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="364" end1="366" start2="1035" end2="1038" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="368" end1="376" start2="1040" end2="1173" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
+        <range start1="377" end1="379" start2="1174" end2="1176" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="382" end1="383" start2="1179" end2="1180" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="384" end1="386" start2="1181" end2="1183" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="389" end1="390" start2="1186" end2="1187" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="391" end1="393" start2="1188" end2="1190" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="396" end1="397" start2="1193" end2="1271" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="398" end1="399" start2="1272" end2="1329" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
+        <range start1="401" end1="437" start2="1331" end2="1331" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="438" end1="439" start2="1332" end2="1333" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
+        <range start1="440" end1="442" start2="1334" end2="1357" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
+        <range start1="444" end1="448" start2="1359" end2="1373" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
+        <range start1="449" end1="577" start2="1374" end2="1505" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
+        <range start1="578" end1="593" start2="1506" end2="1588" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
+      </ranges>
+    </file>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="834" />
+  <component name="ProjectId" id="1OsMFjt5CEjtdtC7lDC1K0BIghZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <hideEmptyPackages ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="liangjieheng" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="integer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/activiti-demo/src/main/resources/processes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/activiti-demo/src/main/resources/processes" />
+      <recent name="$PROJECT_DIR$/spring-cloud-netfix-demo" />
+      <recent name="$PROJECT_DIR$/base-demo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/base-demo/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ljh.activitidemo.demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/activiti-demo/src/main/resources/processes" />
+      <recent name="$PROJECT_DIR$/activiti-demo/src/main/resources/other" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="10017" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="10007" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/start" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="ljhtestc" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5033" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/start" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="ltestb" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/start" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="ljhtestaa" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/start" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="dddd" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="5035" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5028" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/start" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="ltesta" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5005" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="5007" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5012" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="56" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="11" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="20" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/start" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="key" />
+                <option name="value" value="20" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="27" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="25" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="5017" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5022" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5015" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="5010" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="2541" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="2546" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="2539" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="2534" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="2515" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="2517" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="2510" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="76" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="69" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="51" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="53" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="46" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="29" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="32" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="243" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="240" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="228" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="217" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="207" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="209" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="214" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="202" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="184" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="186" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="179" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="157" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/cancelProcessInstance" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="processInstanceId" />
+                <option name="value" value="159" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8081/finish" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="164" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="BreadthFirstSearchSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.algorithm.search.BreadthFirstSearchSample" />
-      <module name="java-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.liangjieheng.learning.algorithm.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="java -version" />
+      <command value="mvn clena" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ActivitiDemoApplication">
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#10" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="10" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests#9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ActivitiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activiti-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljh.activitidemo.StartupApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.liangjieheng.learning.Test" />
-      <module name="java-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.liangjieheng.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ActivitiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activiti_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.ljh.activiti_demo.ActivitiDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityDemoClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="security-demo-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liangjieheng.securitydemoclient.SecurityDemoClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BreadthFirstSearchSample" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="HTTP Request.generated-requests#10" />
+      <item itemvalue="HTTP Request.generated-requests#9" />
+      <item itemvalue="HTTP Request.generated-requests#8" />
+      <item itemvalue="HTTP Request.generated-requests#1" />
+      <item itemvalue="HTTP Request.generated-requests#2" />
+      <item itemvalue="Spring Boot.ActivitiDemoApplication" />
+      <item itemvalue="Spring Boot.SecurityDemoClientApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BreadthFirstSearchSample" />
+        <item itemvalue="HTTP Request.generated-requests#2" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="HTTP Request.generated-requests#9" />
+        <item itemvalue="HTTP Request.generated-requests#10" />
+        <item itemvalue="HTTP Request.generated-requests#8" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration>$USER_HOME$/.subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="985a20ca-a172-4861-8b4b-94f91a69a80a" name="Default Changelist" comment="" />
-      <created>1532576707432</created>
+      <changelist id="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" name="Default Changelist" comment="" />
+      <changelist id="8f52f00f-b410-4bb2-9186-6d6757ba30d0" name="ignore" comment="" />
+      <created>1558519853798</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532576707432</updated>
-      <workItem from="1532576708740" duration="2946000" />
-      <workItem from="1532590907684" duration="3000" />
-      <workItem from="1532591563430" duration="6577000" />
-      <workItem from="1532662274256" duration="1051000" />
-      <workItem from="1532866283416" duration="293000" />
-      <workItem from="1533094872844" duration="1098000" />
-      <workItem from="1533198727488" duration="4620000" />
+      <updated>1558519853798</updated>
+      <workItem from="1558519855972" duration="22000" />
+      <workItem from="1558580960424" duration="2705000" />
+      <workItem from="1558853683793" duration="1222000" />
+      <workItem from="1558924304126" duration="653000" />
+      <workItem from="1558950325757" duration="429000" />
+      <workItem from="1559627648362" duration="6342000" />
+      <workItem from="1559705098551" duration="468000" />
+      <workItem from="1560138100814" duration="408000" />
+      <workItem from="1561097450467" duration="824000" />
+      <workItem from="1561100220928" duration="445000" />
+      <workItem from="1561101785322" duration="30000" />
+      <workItem from="1561170108460" duration="2510000" />
+      <workItem from="1561175749233" duration="2004000" />
+      <workItem from="1564761749784" duration="170000" />
+      <workItem from="1564800692836" duration="165000" />
+      <workItem from="1565083308932" duration="23000" />
+      <workItem from="1565083358614" duration="1563000" />
+      <workItem from="1565092206590" duration="4000" />
+      <workItem from="1565169807244" duration="698000" />
+      <workItem from="1565173195602" duration="245000" />
+      <workItem from="1565230020413" duration="264000" />
+      <workItem from="1566012573631" duration="6008000" />
+      <workItem from="1567564896895" duration="2000" />
+      <workItem from="1572850032652" duration="126000" />
+      <workItem from="1586542718511" duration="20000" />
+      <workItem from="1587468849377" duration="1417000" />
+      <workItem from="1587482778405" duration="66000" />
+      <workItem from="1587482871579" duration="2254000" />
+      <workItem from="1587485638340" duration="228000" />
+      <workItem from="1587520847939" duration="257000" />
+      <workItem from="1587521117794" duration="152000" />
+      <workItem from="1587521280700" duration="5846000" />
+      <workItem from="1587535606080" duration="6342000" />
+      <workItem from="1587547880571" duration="4163000" />
+      <workItem from="1587609642947" duration="1686000" />
+      <workItem from="1587621746547" duration="3889000" />
+      <workItem from="1587642451051" duration="217000" />
+      <workItem from="1587642994934" duration="72000" />
+      <workItem from="1587700282514" duration="3538000" />
+      <workItem from="1587869803455" duration="5450000" />
+      <workItem from="1587955360730" duration="1831000" />
+      <workItem from="1588068305177" duration="652000" />
+      <workItem from="1588143668761" duration="8123000" />
+      <workItem from="1588731866100" duration="5940000" />
+      <workItem from="1588778673851" duration="399000" />
+      <workItem from="1588779110052" duration="11000" />
+      <workItem from="1588816250866" duration="1634000" />
+      <workItem from="1588919010799" duration="2247000" />
+      <workItem from="1589184281309" duration="858000" />
+      <workItem from="1589449035764" duration="1261000" />
+      <workItem from="1589792595258" duration="395000" />
+      <workItem from="1589859448267" duration="192000" />
+      <workItem from="1589873166756" duration="1333000" />
+      <workItem from="1589956390642" duration="6573000" />
+      <workItem from="1590028193628" duration="8000" />
+      <workItem from="1590044537668" duration="870000" />
+      <workItem from="1590221229393" duration="766000" />
+      <workItem from="1590285185574" duration="953000" />
+      <workItem from="1590370637916" duration="3000" />
+      <workItem from="1590371505102" duration="9000" />
+      <workItem from="1590393165036" duration="623000" />
+      <workItem from="1590404105246" duration="511000" />
+      <workItem from="1591174133816" duration="980000" />
+      <workItem from="1591271652099" duration="779000" />
+      <workItem from="1591322353961" duration="3079000" />
+      <workItem from="1591341386274" duration="5325000" />
+      <workItem from="1591537552714" duration="73000" />
+      <workItem from="1591581208330" duration="641000" />
+      <workItem from="1591605100511" duration="11151000" />
+      <workItem from="1591670276009" duration="2467000" />
+      <workItem from="1591770543692" duration="4686000" />
+      <workItem from="1591804219456" duration="8000" />
+      <workItem from="1591859136858" duration="1568000" />
+      <workItem from="1591868814895" duration="4342000" />
+      <workItem from="1591928871607" duration="2099000" />
+      <workItem from="1591946339080" duration="166000" />
+      <workItem from="1592210962462" duration="2580000" />
+      <workItem from="1592290884003" duration="581000" />
+      <workItem from="1592361313327" duration="3417000" />
+      <workItem from="1592392806502" duration="1167000" />
+      <workItem from="1592449881334" duration="2157000" />
+      <workItem from="1592470117018" duration="5330000" />
+      <workItem from="1592808604400" duration="141000" />
+      <workItem from="1592810823908" duration="364000" />
+      <workItem from="1592897755500" duration="4184000" />
+      <workItem from="1593328793299" duration="2985000" />
+      <workItem from="1593415783401" duration="1233000" />
+      <workItem from="1593423985779" duration="1184000" />
+      <workItem from="1593426140477" duration="8000" />
+      <workItem from="1593778507507" duration="3393000" />
+      <workItem from="1594088452746" duration="1189000" />
+      <workItem from="1594178225455" duration="295000" />
+      <workItem from="1594179259399" duration="18000" />
+      <workItem from="1594179296822" duration="275000" />
+      <workItem from="1594192137955" duration="6047000" />
+      <workItem from="1594205254289" duration="574000" />
+      <workItem from="1594348320470" duration="3854000" />
+      <workItem from="1594392951847" duration="1450000" />
+      <workItem from="1594436018437" duration="926000" />
+      <workItem from="1594445356787" duration="982000" />
+      <workItem from="1594602674034" duration="1295000" />
+      <workItem from="1594780806804" duration="248000" />
+      <workItem from="1594781057902" duration="1757000" />
+      <workItem from="1594973150172" duration="1216000" />
+      <workItem from="1594981611561" duration="5725000" />
+      <workItem from="1594988966393" duration="38000" />
+      <workItem from="1594997463235" duration="47000" />
+      <workItem from="1595054621608" duration="9035000" />
+      <workItem from="1595209077563" duration="4011000" />
+      <workItem from="1595330440613" duration="670000" />
+      <workItem from="1595408259528" duration="1511000" />
+      <workItem from="1595773418002" duration="54000" />
+      <workItem from="1596204992295" duration="8774000" />
+      <workItem from="1596253462277" duration="13736000" />
+      <workItem from="1596337193312" duration="467000" />
+      <workItem from="1596420215756" duration="4492000" />
+      <workItem from="1596785414980" duration="1459000" />
+      <workItem from="1596878546422" duration="678000" />
+      <workItem from="1596879547645" duration="840000" />
+      <workItem from="1596939732895" duration="1099000" />
+      <workItem from="1597286370346" duration="2175000" />
+      <workItem from="1597292147024" duration="105000" />
+      <workItem from="1597495011970" duration="2683000" />
+      <workItem from="1597505816837" duration="4000" />
+      <workItem from="1597636190429" duration="841000" />
+      <workItem from="1597666993302" duration="443000" />
+      <workItem from="1597823355913" duration="590000" />
+      <workItem from="1597912391774" duration="486000" />
+      <workItem from="1597923762296" duration="1327000" />
+      <workItem from="1598754687420" duration="1305000" />
+      <workItem from="1598769842721" duration="967000" />
+      <workItem from="1598796720549" duration="821000" />
     </task>
     <task id="LOCAL-00001" summary="改成private">
       <created>1532586299915</created>
@@ -396,7 +1211,63 @@
       <option name="project" value="LOCAL" />
       <updated>1532657005739</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00015" summary="commit">
+      <created>1589792705468</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589792705468</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Revert &quot;commit&quot;&#10;&#10;This reverts commit 89483b09">
+      <created>1589792765480</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589792765480</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Revert &quot;Revert &quot;commit&quot;&quot;&#10;&#10;This reverts commit a9dc4676">
+      <created>1589792814890</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589792814890</updated>
+    </task>
+    <task id="LOCAL-00018" summary="删除冗余代码">
+      <created>1591175103882</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591175103882</updated>
+    </task>
+    <task id="LOCAL-00019" summary="删除冗余代码">
+      <created>1591671908404</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591671908404</updated>
+    </task>
+    <task id="LOCAL-00020" summary="删除冗余代码">
+      <created>1592392844905</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592392844905</updated>
+    </task>
+    <task id="LOCAL-00021" summary="test">
+      <created>1598796751514</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598796751514</updated>
+    </task>
+    <task id="LOCAL-00022" summary="test">
+      <created>1598796864092</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598796864092</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -438,158 +1309,259 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="改成private" />
-    <MESSAGE value="广度优先搜索算法" />
-    <MESSAGE value="添加注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加注释" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="并发工具类" />
+    <MESSAGE value="fork/join示例" />
+    <MESSAGE value="actor示例" />
+    <MESSAGE value="fix 代码demo" />
+    <MESSAGE value="改为模块化" />
+    <MESSAGE value="update maven dependencies version" />
+    <MESSAGE value="spring-cloud-netflix-demo" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="Revert &quot;commit&quot;&#10;&#10;This reverts commit 89483b09" />
+    <MESSAGE value="Revert &quot;Revert &quot;commit&quot;&quot;&#10;&#10;This reverts commit a9dc4676" />
+    <MESSAGE value="删除冗余代码" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="425" column="13" selection-start-line="425" selection-start-column="13" selection-end-line="425" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="198" column="10" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="179" column="19" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="828" column="31" lean-forward="true" selection-start-line="828" selection-start-column="31" selection-end-line="828" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#60784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/leetcode/RemoveDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="623" column="17" selection-start-line="623" selection-start-column="7" selection-end-line="623" selection-end-column="17" />
-          <folding>
-            <element signature="e#24650#24651#0" expanded="true" />
-            <element signature="e#24690#24691#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/ioc/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/sort/QuickSortSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/algorithm/search/BreadthFirstSearchSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/ConsumerProducerSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/concurrent/SynchronizedSample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/liangjieheng/learning/jdbc/MysqlJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="568" y="314" key="#Customize_Threads_View" timestamp="1596209012041">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="568" y="314" key="#Customize_Threads_View/0.23.1440.852@0.23.1440.852" timestamp="1596209012041" />
+    <state x="184" y="23" width="1071" height="852" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596440995266">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="184" y="23" width="1071" height="852" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1596440995266" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597495147787">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1596278000098" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.23.1440.852@0.23.1440.852" timestamp="1597495147787" />
+    <state x="479" y="208" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591671880334">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="479" y="208" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591671880334" />
+    <state x="483" y="160" key="#xdebugger.evaluate" timestamp="1596208993191">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="483" y="160" key="#xdebugger.evaluate/0.23.1440.852@0.23.1440.852" timestamp="1596208993191" />
+    <state x="0" y="25" key="CommitChangelistDialog2" timestamp="1598796863980">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="0" y="25" key="CommitChangelistDialog2/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1596442319511" />
+    <state x="0" y="25" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1598796863980" />
+    <state width="442" height="466" key="DebuggerActiveHint" timestamp="1591607510625">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="442" height="466" key="DebuggerActiveHint/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591607510625" />
+    <state x="10" y="97" key="DiffContextDialog" timestamp="1594088655944">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="10" y="97" key="DiffContextDialog/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1594088655944" />
+    <state width="1093" height="416" key="GridCell.Tab.0.bottom" timestamp="1598771116818">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606042" />
+    <state width="1093" height="416" key="GridCell.Tab.0.bottom/0.23.1440.852@0.23.1440.852" timestamp="1598771116818" />
+    <state width="1093" height="416" key="GridCell.Tab.0.center" timestamp="1598771116818">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1398" height="221" key="GridCell.Tab.0.center/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606041" />
+    <state width="1093" height="416" key="GridCell.Tab.0.center/0.23.1440.852@0.23.1440.852" timestamp="1598771116818" />
+    <state width="1093" height="416" key="GridCell.Tab.0.left" timestamp="1598771116817">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1398" height="221" key="GridCell.Tab.0.left/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606040" />
+    <state width="1093" height="416" key="GridCell.Tab.0.left/0.23.1440.852@0.23.1440.852" timestamp="1598771116817" />
+    <state width="1093" height="416" key="GridCell.Tab.0.right" timestamp="1598771116818">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1398" height="221" key="GridCell.Tab.0.right/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606041" />
+    <state width="1093" height="416" key="GridCell.Tab.0.right/0.23.1440.852@0.23.1440.852" timestamp="1598771116818" />
+    <state width="1093" height="416" key="GridCell.Tab.1.bottom" timestamp="1598771116820">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1093" height="416" key="GridCell.Tab.1.bottom/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606033" />
+    <state width="1093" height="416" key="GridCell.Tab.1.bottom/0.23.1440.852@0.23.1440.852" timestamp="1598771116820" />
+    <state width="1093" height="416" key="GridCell.Tab.1.center" timestamp="1598771116819">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1093" height="416" key="GridCell.Tab.1.center/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606032" />
+    <state width="1093" height="416" key="GridCell.Tab.1.center/0.23.1440.852@0.23.1440.852" timestamp="1598771116819" />
+    <state width="1093" height="416" key="GridCell.Tab.1.left" timestamp="1598771116819">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1093" height="416" key="GridCell.Tab.1.left/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606032" />
+    <state width="1093" height="416" key="GridCell.Tab.1.left/0.23.1440.852@0.23.1440.852" timestamp="1598771116819" />
+    <state width="1093" height="416" key="GridCell.Tab.1.right" timestamp="1598771116820">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="1093" height="416" key="GridCell.Tab.1.right/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606033" />
+    <state width="1093" height="416" key="GridCell.Tab.1.right/0.23.1440.852@0.23.1440.852" timestamp="1598771116820" />
+    <state x="308" y="191" key="IDE.errors.dialog" timestamp="1596211116637">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="308" y="191" key="IDE.errors.dialog/0.23.1440.852@0.23.1440.852" timestamp="1596211116637" />
+    <state x="324" y="158" key="RollbackChangesDialog" timestamp="1596879178148">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="324" y="158" key="RollbackChangesDialog/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1594088657056" />
+    <state x="324" y="158" key="RollbackChangesDialog/0.23.1440.852@0.23.1440.852" timestamp="1596879178148" />
+    <state x="259" y="38" key="SettingsEditor" timestamp="1595236455732">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="259" y="38" key="SettingsEditor/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1595236455732" />
+    <state x="259" y="38" key="SettingsEditor/0.23.1440.852@0.23.1440.852" timestamp="1594997506635" />
+    <state x="320" y="189" key="Vcs.Push.Dialog.v2" timestamp="1598796933123">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="320" y="189" key="Vcs.Push.Dialog.v2/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1592393014424" />
+    <state x="320" y="189" key="Vcs.Push.Dialog.v2/0.23.1440.852@0.23.1440.852" timestamp="1598796933123" />
+    <state width="720" height="417" key="XDebugger.FullValuePopup" timestamp="1592473962257">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state width="720" height="417" key="XDebugger.FullValuePopup/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1592473962257" />
+    <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594452116286">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591616412786" />
+    <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.852@0.23.1440.852" timestamp="1594452116286" />
+    <state x="216" y="185" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591612387244">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="216" y="185" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591612387244" />
+    <state x="631" y="-927" width="822" height="833" key="dock-window-1" timestamp="1591946514610">
+      <screen x="-205" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="631" y="-927" width="822" height="833" key="dock-window-1/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591946514610" />
+    <state x="579" y="89" width="822" height="833" key="dock-window-1/0.23.1440.852@0.23.1440.852" timestamp="1591886363450" />
+    <state x="404" y="213" width="632" height="502" key="find.popup" timestamp="1596210910002">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="404" y="213" width="632" height="502" key="find.popup/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1595213306746" />
+    <state x="404" y="213" width="632" height="502" key="find.popup/0.23.1440.852@0.23.1440.852" timestamp="1596210910002" />
+    <state x="0" y="71" key="new project wizard" timestamp="1596879268745">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="0" y="71" key="new project wizard/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591174247221" />
+    <state x="0" y="71" key="new project wizard/0.23.1440.852@0.23.1440.852" timestamp="1596879268745" />
+    <state x="385" y="204" width="670" height="675" key="run.anything.popup" timestamp="1595066791587">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="385" y="204" width="670" height="675" key="run.anything.popup/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1595066791587" />
+    <state x="213" y="116" width="670" height="676" key="search.everywhere.popup" timestamp="1598754704167">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="293" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597924184935" />
+    <state x="213" y="116" width="670" height="676" key="search.everywhere.popup/0.23.1440.852@0.23.1440.852" timestamp="1598754704167" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/cmd/AddIdentityLinkCmd.class</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/TaskEntityImpl.class</url>
+          <line>180</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/IdentityLinkEntityManagerImpl.class</url>
+          <line>97</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/asyncexecutor/DefaultAsyncJobExecutor.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/interceptor/CommandContextInterceptor.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/persistence/entity/data/impl/MybatisTimerJobDataManager.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/persistence/entity/TimerJobEntityImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/ManagementServiceImpl.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="entity instanceof TimerJobEntity" language="JAVA" custom="org.activiti.engine.impl.persistence.entity.TimerJobEntity" />
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/persistence/cache/EntityCacheImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cmd/AcquireTimerJobsCmd.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/interceptor/CommandContext.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/persistence/entity/ExecutionEntityManagerImpl.java</url>
+          <line>408</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/bpmn/behavior/FlowNodeActivityBehavior.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/bpmn/behavior/CallActivityBehavior.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo />
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
