@@ -54,7 +54,7 @@ public class TestController {
 //        param.put("form2", "b");
 //        param.put("assigneeList",Arrays.asList("aa","bb"));
 //        param.put("assignee1",Arrays.asList("aa1","bb1"));
-        String businessKey = String.valueOf(new Random().nextInt(100));
+        String businessKey = "aaaa";
         param.put("aaa","ljh");
 //        param.put("businessKey",businessKey);
         identityService.setAuthenticatedUserId("xx");
@@ -105,11 +105,14 @@ public class TestController {
 //        System.out.println(taskService.getVariable("7509","test11"));
 //        System.out.println(runtimeService.getVariable());
 //        runtimeService.messageEventReceived("sucess","2511");
-        processEngine.getTaskService().setVariableLocal("10017","123","123");
+//        processEngine.getTaskService().setVariableLocal("10017","123","123");
 //        Map<String,Object> param = new HashMap<>();
 //        param.put("num",20);
 //        taskService.complete(id,param);
-        taskService.complete("10017");
+//        runtimeService.suspendProcessInstanceById("20014");
+//        runtimeService.activateProcessInstanceById("20014");
+        runtimeService.setVariable("20014","111","test");
+//        taskService.complete(id);
         return "finish";
     }
 

@@ -60,6 +60,12 @@
             <artifactId>activiti-form-engine</artifactId>
             <version>6.0.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.activiti/activiti-rest -->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-rest</artifactId>
+            <version>6.0.0</version>
+        </dependency>
         <dependency>
             <groupId>org.activiti</groupId>
             <artifactId>activiti-form-engine-configurator</artifactId>

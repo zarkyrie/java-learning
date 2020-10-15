@@ -6,7 +6,8 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(exclude = SecurityAutoConfiguration.class)
+@SpringBootApplication(exclude = {SecurityAutoConfiguration.class,org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class,
+        org.activiti.spring.boot.SecurityAutoConfiguration.class})
 public class StartupApplication implements ApplicationRunner {
     public static void main(String[] args) {
         SpringApplication.run(StartupApplication.class, args);
