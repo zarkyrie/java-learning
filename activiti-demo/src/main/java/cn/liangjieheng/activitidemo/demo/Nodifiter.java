@@ -1,4 +1,4 @@
-package com.ljh.activitidemo.demo;
+package cn.liangjieheng.activitidemo.demo;
 
 import org.activiti.engine.delegate.DelegateExecution;
 import org.activiti.engine.delegate.Expression;

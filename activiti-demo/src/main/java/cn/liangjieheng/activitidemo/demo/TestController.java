@@ -1,7 +1,6 @@
-package com.ljh.activitidemo.demo;
+package cn.liangjieheng.activitidemo.demo;
 
 import org.activiti.engine.*;
-import org.activiti.engine.delegate.event.ActivitiEventListener;
 import org.activiti.engine.form.TaskFormData;
 import org.activiti.engine.history.HistoricProcessInstance;
 import org.activiti.engine.impl.agenda.DefaultActivitiEngineAgenda;
@@ -10,7 +9,6 @@ import org.activiti.engine.impl.interceptor.CommandContext;
 import org.activiti.engine.impl.persistence.entity.ExecutionEntity;
 import org.activiti.engine.impl.persistence.entity.ExecutionEntityManager;
 import org.activiti.engine.runtime.ProcessInstance;
-import org.activiti.engine.task.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

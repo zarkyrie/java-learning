@@ -8,7 +8,7 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.ljh</groupId>
+    <groupId>cn.liangjieheng</groupId>
     <artifactId>activiti-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>activiti-demo</name>

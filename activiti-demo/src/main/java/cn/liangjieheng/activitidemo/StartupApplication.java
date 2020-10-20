@@ -1,4 +1,4 @@
-package com.ljh.activitidemo;
+package cn.liangjieheng.activitidemo;
 
 import org.activiti.spring.boot.SecurityAutoConfiguration;
 import org.springframework.boot.ApplicationArguments;

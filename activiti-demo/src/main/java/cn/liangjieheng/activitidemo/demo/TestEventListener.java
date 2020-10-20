@@ -1,4 +1,4 @@
-package com.ljh.activitidemo.demo;
+package cn.liangjieheng.activitidemo.demo;
 
 import org.activiti.engine.delegate.event.ActivitiEvent;
 import org.activiti.engine.delegate.event.ActivitiEventListener;

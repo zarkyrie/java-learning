@@ -1,10 +1,7 @@
-package com.ljh.activitidemo.demo;
+package cn.liangjieheng.activitidemo.demo;
 
-import org.activiti.bpmn.model.*;
 import org.activiti.engine.delegate.DelegateExecution;
 import org.activiti.engine.delegate.ExecutionListener;
-
-import java.util.List;
 
 public class TestExecutionListener implements ExecutionListener {
     @Override

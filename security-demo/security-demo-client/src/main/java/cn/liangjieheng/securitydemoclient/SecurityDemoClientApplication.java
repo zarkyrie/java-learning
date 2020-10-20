@@ -1,4 +1,4 @@
-package com.liangjieheng.securitydemoclient;
+package cn.liangjieheng.securitydemoclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

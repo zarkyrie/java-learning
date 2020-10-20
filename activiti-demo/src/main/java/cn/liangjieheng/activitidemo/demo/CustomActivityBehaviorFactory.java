@@ -1,4 +1,4 @@
-package com.ljh.activitidemo.demo;
+package cn.liangjieheng.activitidemo.demo;
 
 import org.activiti.bpmn.model.CallActivity;
 import org.activiti.engine.impl.bpmn.behavior.CallActivityBehavior;

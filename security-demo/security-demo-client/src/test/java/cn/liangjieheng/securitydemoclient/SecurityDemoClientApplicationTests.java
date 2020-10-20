@@ -1,10 +1,10 @@
-package com.ljh.activitidemo;
+package cn.liangjieheng.securitydemoclient;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StartupApplicationTests {
+class SecurityDemoClientApplicationTests {
 
     @Test
     void contextLoads() {

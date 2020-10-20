@@ -1,7 +1,6 @@
-package com.ljh.activitidemo.demo;
+package cn.liangjieheng.activitidemo.demo;
 
 import org.activiti.engine.delegate.event.ActivitiEventListener;
-import org.activiti.engine.form.AbstractFormType;
 import org.activiti.engine.impl.persistence.entity.data.impl.MybatisExecutionDataManager;
 import org.activiti.spring.SpringProcessEngineConfiguration;
 import org.activiti.spring.boot.ProcessEngineConfigurationConfigurer;

@@ -8,7 +8,7 @@
         <version>2.3.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.liangjieheng</groupId>
+    <groupId>cn.liangjieheng</groupId>
     <artifactId>security-demo-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>security-demo-client</name>
