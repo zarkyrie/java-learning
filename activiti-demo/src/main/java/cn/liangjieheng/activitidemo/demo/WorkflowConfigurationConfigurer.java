@@ -1,10 +1,14 @@
 package cn.liangjieheng.activitidemo.demo;
 
 import org.activiti.engine.delegate.event.ActivitiEventListener;
+import org.activiti.engine.impl.cfg.ProcessEngineConfigurationImpl;
 import org.activiti.engine.impl.persistence.entity.data.impl.MybatisExecutionDataManager;
+import org.activiti.form.engine.FormEngine;
+import org.activiti.form.engine.FormEngineConfiguration;
 import org.activiti.spring.SpringProcessEngineConfiguration;
 import org.activiti.spring.boot.ProcessEngineConfigurationConfigurer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
@@ -16,6 +20,7 @@ import java.util.Set;
 
 /**
  * 针对SpringProcessEngineConfiguration的扩展配置
+ *
  * @author yangxi
  */
 @Component
@@ -34,7 +39,7 @@ public class WorkflowConfigurationConfigurer implements ProcessEngineConfigurati
         processEngineConfiguration.setDataSource(dataSource);
 
         //配置全局监听器
-        List<ActivitiEventListener> eventListeners =new ArrayList<>();
+        List<ActivitiEventListener> eventListeners = new ArrayList<>();
         eventListeners.add(workflowEventListener);
         processEngineConfiguration.setEventListeners(eventListeners);
 
@@ -77,11 +82,19 @@ public class WorkflowConfigurationConfigurer implements ProcessEngineConfigurati
 //        //设置自定义执行计划表
 //        processEngineConfiguration.setEngineAgendaFactory(new CustomActivitiEngineAgendaFactory());
         processEngineConfiguration.setExecutionDataManager(new MybatisExecutionDataManager(processEngineConfiguration));
-        processEngineConfiguration.setExecutionEntityManager(new CustomExecutionEntityManagerImpl(processEngineConfiguration,processEngineConfiguration.getExecutionDataManager()));
+        processEngineConfiguration.setExecutionEntityManager(new CustomExecutionEntityManagerImpl(processEngineConfiguration, processEngineConfiguration.getExecutionDataManager()));
         // 设置自定义行为工厂
         processEngineConfiguration.setActivityBehaviorFactory(new CustomActivityBehaviorFactory());
     }
 
-
+    @Bean
+    FormEngine formEngine() {
+//        FormEngineConfigurationImpl configuration = new FormEngineConfigurationImpl();
+//        configuration.setDataSource(dataSource);
+//        configuration.setIdGenerator(processEngineConfiguration);
+//        //设置自定义表单解析工厂
+//        configuration.setFormParseFactory( new CustomFormParseFactory());
+        return new FormEngineConfiguration().buildFormEngine();
+    }
 
 }

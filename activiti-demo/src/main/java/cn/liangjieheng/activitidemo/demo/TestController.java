@@ -9,6 +9,7 @@ import org.activiti.engine.impl.interceptor.CommandContext;
 import org.activiti.engine.impl.persistence.entity.ExecutionEntity;
 import org.activiti.engine.impl.persistence.entity.ExecutionEntityManager;
 import org.activiti.engine.runtime.ProcessInstance;
+import org.activiti.form.engine.FormEngine;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,6 +33,8 @@ public class TestController {
     private IdentityService identityService;
     @Autowired
     private ProcessEngine processEngine;
+    @Autowired
+    private FormEngine formEngine;
 
     @PostConstruct
     public void init(){
@@ -143,9 +146,7 @@ public class TestController {
 
     @GetMapping("/form")
     public String form() {
-        Map<String, String> param = new HashMap<>();
-        param.put("name", "ljh");
-        formService.submitStartFormData("test2", param);
+
         return "form";
     }
 

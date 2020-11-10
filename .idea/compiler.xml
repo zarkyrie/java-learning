@@ -2,13 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="flowable-demo" />
+        <module name="activiti-demo" />
+        <module name="elasticsearch-demo" />
         <module name="base-demo" />
         <module name="security-demo-client" />
-        <module name="activiti-demo" />
+        <module name="rocketmq-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,7 +31,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="activiti-demo" options="-parameters" />
+      <module name="elasticsearch-demo" options="-parameters" />
+      <module name="flowable-demo" options="-parameters" />
       <module name="hateoas" options="-parameters" />
+      <module name="rocketmq-demo" options="-parameters" />
       <module name="security-demo-client" options="-parameters" />
     </option>
   </component>
