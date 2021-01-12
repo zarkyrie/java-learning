@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activiti-demo/src/main/java/com/ljh/activitidemo/StartupApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/activiti-demo/src/main/java/com/ljh/activitidemo/StartupApplication.java" afterDir="false" />
-    </list>
-    <list id="8f52f00f-b410-4bb2-9186-6d6757ba30d0" name="ignore" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,62 +47,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="29" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="3" end1="4" start2="30" end2="36" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
-        <range start1="5" end1="8" start2="37" end2="37" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="9" end1="11" start2="38" end2="38" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="16" end1="55" start2="43" end2="45" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="56" end1="137" start2="46" end2="62" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="141" end1="141" start2="66" end2="68" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="145" end1="150" start2="72" end2="72" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="152" end1="152" start2="74" end2="75" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="153" end1="164" start2="76" end2="86" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="166" end1="171" start2="88" end2="90" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="172" end1="176" start2="91" end2="94" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="177" end1="301" start2="95" end2="98" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="303" end1="304" start2="100" end2="108" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="306" end1="306" start2="110" end2="112" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="308" end1="308" start2="114" end2="135" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="309" end1="318" start2="136" end2="955" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="321" end1="331" start2="958" end2="992" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="335" end1="344" start2="996" end2="1006" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="349" end1="351" start2="1011" end2="1018" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="354" end1="356" start2="1021" end2="1026" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="359" end1="359" start2="1029" end2="1030" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="360" end1="361" start2="1031" end2="1032" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="364" end1="366" start2="1035" end2="1038" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="368" end1="376" start2="1040" end2="1173" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
-        <range start1="377" end1="379" start2="1174" end2="1176" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="382" end1="383" start2="1179" end2="1180" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="384" end1="386" start2="1181" end2="1183" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="389" end1="390" start2="1186" end2="1187" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="391" end1="393" start2="1188" end2="1190" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="396" end1="397" start2="1193" end2="1271" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="398" end1="399" start2="1272" end2="1329" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
-        <range start1="401" end1="437" start2="1331" end2="1331" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="438" end1="439" start2="1332" end2="1333" changelist="8f52f00f-b410-4bb2-9186-6d6757ba30d0" />
-        <range start1="440" end1="442" start2="1334" end2="1357" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
-        <range start1="444" end1="448" start2="1359" end2="1373" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
-        <range start1="449" end1="577" start2="1374" end2="1505" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
-        <range start1="578" end1="593" start2="1506" end2="1588" changelist="3b5689ee-150c-42ef-aa5e-5d3a15820ff2" />
-      </ranges>
-    </file>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -989,6 +933,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ActivitiDemoApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -1019,9 +976,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ElasticsearchDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="elasticsearch-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.liangjieheng.elasticsearchdemo.ElasticsearchDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowableDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flowable-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.liangjieheng.flowabledemo.FlowableDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocketmqDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rocketmq-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.liangjieheng.rocketmqdemo.RocketmqDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityDemoClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="security-demo-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.liangjieheng.securitydemoclient.SecurityDemoClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SecurityDemoClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="security-demo-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.liangjieheng.securitydemoclient.SecurityDemoClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootTestDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-test-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.liangjieheng.demo.SpringbootTestDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartupApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activiti-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.liangjieheng.activitidemo.StartupApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1034,6 +1033,12 @@
       <item itemvalue="HTTP Request.generated-requests#2" />
       <item itemvalue="Spring Boot.ActivitiDemoApplication" />
       <item itemvalue="Spring Boot.SecurityDemoClientApplication" />
+      <item itemvalue="Spring Boot.StartupApplication" />
+      <item itemvalue="Spring Boot.RocketmqDemoApplication" />
+      <item itemvalue="Spring Boot.SecurityDemoClientApplication (1)" />
+      <item itemvalue="Spring Boot.ElasticsearchDemoApplication" />
+      <item itemvalue="Spring Boot.FlowableDemoApplication" />
+      <item itemvalue="Spring Boot.SpringbootTestDemoApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -1349,142 +1354,6 @@
     <MESSAGE value="删除冗余代码" />
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="568" y="314" key="#Customize_Threads_View" timestamp="1596209012041">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="568" y="314" key="#Customize_Threads_View/0.23.1440.852@0.23.1440.852" timestamp="1596209012041" />
-    <state x="184" y="23" width="1071" height="852" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596440995266">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="184" y="23" width="1071" height="852" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1596440995266" />
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597495147787">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1596278000098" />
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.23.1440.852@0.23.1440.852" timestamp="1597495147787" />
-    <state x="479" y="208" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591671880334">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="479" y="208" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591671880334" />
-    <state x="483" y="160" key="#xdebugger.evaluate" timestamp="1596208993191">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="483" y="160" key="#xdebugger.evaluate/0.23.1440.852@0.23.1440.852" timestamp="1596208993191" />
-    <state x="0" y="25" key="CommitChangelistDialog2" timestamp="1598799880722">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="0" y="25" key="CommitChangelistDialog2/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1596442319511" />
-    <state x="0" y="25" key="CommitChangelistDialog2/0.23.1440.852@0.23.1440.852" timestamp="1598799880722" />
-    <state width="442" height="466" key="DebuggerActiveHint" timestamp="1591607510625">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="442" height="466" key="DebuggerActiveHint/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591607510625" />
-    <state x="10" y="97" key="DiffContextDialog" timestamp="1594088655944">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="10" y="97" key="DiffContextDialog/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1594088655944" />
-    <state width="1093" height="416" key="GridCell.Tab.0.bottom" timestamp="1598771116818">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606042" />
-    <state width="1093" height="416" key="GridCell.Tab.0.bottom/0.23.1440.852@0.23.1440.852" timestamp="1598771116818" />
-    <state width="1093" height="416" key="GridCell.Tab.0.center" timestamp="1598771116818">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="1398" height="221" key="GridCell.Tab.0.center/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606041" />
-    <state width="1093" height="416" key="GridCell.Tab.0.center/0.23.1440.852@0.23.1440.852" timestamp="1598771116818" />
-    <state width="1093" height="416" key="GridCell.Tab.0.left" timestamp="1598771116817">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="1398" height="221" key="GridCell.Tab.0.left/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606040" />
-    <state width="1093" height="416" key="GridCell.Tab.0.left/0.23.1440.852@0.23.1440.852" timestamp="1598771116817" />
-    <state width="1093" height="416" key="GridCell.Tab.0.right" timestamp="1598771116818">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="1398" height="221" key="GridCell.Tab.0.right/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606041" />
-    <state width="1093" height="416" key="GridCell.Tab.0.right/0.23.1440.852@0.23.1440.852" timestamp="1598771116818" />
-    <state width="1093" height="416" key="GridCell.Tab.1.bottom" timestamp="1598771116820">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="1093" height="416" key="GridCell.Tab.1.bottom/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606033" />
-    <state width="1093" height="416" key="GridCell.Tab.1.bottom/0.23.1440.852@0.23.1440.852" timestamp="1598771116820" />
-    <state width="1093" height="416" key="GridCell.Tab.1.center" timestamp="1598771116819">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="1093" height="416" key="GridCell.Tab.1.center/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606032" />
-    <state width="1093" height="416" key="GridCell.Tab.1.center/0.23.1440.852@0.23.1440.852" timestamp="1598771116819" />
-    <state width="1093" height="416" key="GridCell.Tab.1.left" timestamp="1598771116819">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="1093" height="416" key="GridCell.Tab.1.left/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606032" />
-    <state width="1093" height="416" key="GridCell.Tab.1.left/0.23.1440.852@0.23.1440.852" timestamp="1598771116819" />
-    <state width="1093" height="416" key="GridCell.Tab.1.right" timestamp="1598771116820">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="1093" height="416" key="GridCell.Tab.1.right/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597926606033" />
-    <state width="1093" height="416" key="GridCell.Tab.1.right/0.23.1440.852@0.23.1440.852" timestamp="1598771116820" />
-    <state x="308" y="191" key="IDE.errors.dialog" timestamp="1596211116637">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="308" y="191" key="IDE.errors.dialog/0.23.1440.852@0.23.1440.852" timestamp="1596211116637" />
-    <state x="144" y="97" key="MergeDialog" timestamp="1598800023248">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="144" y="97" key="MergeDialog/0.23.1440.852@0.23.1440.852" timestamp="1598800023248" />
-    <state x="324" y="158" key="RollbackChangesDialog" timestamp="1596879178148">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="324" y="158" key="RollbackChangesDialog/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1594088657056" />
-    <state x="324" y="158" key="RollbackChangesDialog/0.23.1440.852@0.23.1440.852" timestamp="1596879178148" />
-    <state x="259" y="38" key="SettingsEditor" timestamp="1595236455732">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="259" y="38" key="SettingsEditor/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1595236455732" />
-    <state x="259" y="38" key="SettingsEditor/0.23.1440.852@0.23.1440.852" timestamp="1594997506635" />
-    <state x="320" y="189" key="Vcs.Push.Dialog.v2" timestamp="1598796933123">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="320" y="189" key="Vcs.Push.Dialog.v2/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1592393014424" />
-    <state x="320" y="189" key="Vcs.Push.Dialog.v2/0.23.1440.852@0.23.1440.852" timestamp="1598796933123" />
-    <state width="720" height="417" key="XDebugger.FullValuePopup" timestamp="1592473962257">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state width="720" height="417" key="XDebugger.FullValuePopup/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1592473962257" />
-    <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598799956889">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591616412786" />
-    <state x="521" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.852@0.23.1440.852" timestamp="1598799956889" />
-    <state x="216" y="185" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591612387244">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="216" y="185" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591612387244" />
-    <state x="631" y="-927" width="822" height="833" key="dock-window-1" timestamp="1591946514610">
-      <screen x="-205" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="631" y="-927" width="822" height="833" key="dock-window-1/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591946514610" />
-    <state x="579" y="89" width="822" height="833" key="dock-window-1/0.23.1440.852@0.23.1440.852" timestamp="1591886363450" />
-    <state x="404" y="213" width="632" height="502" key="find.popup" timestamp="1596210910002">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="404" y="213" width="632" height="502" key="find.popup/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1595213306746" />
-    <state x="404" y="213" width="632" height="502" key="find.popup/0.23.1440.852@0.23.1440.852" timestamp="1596210910002" />
-    <state x="0" y="71" key="new project wizard" timestamp="1596879268745">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="0" y="71" key="new project wizard/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1591174247221" />
-    <state x="0" y="71" key="new project wizard/0.23.1440.852@0.23.1440.852" timestamp="1596879268745" />
-    <state x="385" y="204" width="670" height="675" key="run.anything.popup" timestamp="1595066791587">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="385" y="204" width="670" height="675" key="run.anything.popup/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1595066791587" />
-    <state x="213" y="116" width="670" height="676" key="search.everywhere.popup" timestamp="1598754704167">
-      <screen x="0" y="23" width="1440" height="852" />
-    </state>
-    <state x="293" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.852/-205.-1080.1920.1080@0.23.1440.852" timestamp="1597924184935" />
-    <state x="213" y="116" width="670" height="676" key="search.everywhere.popup/0.23.1440.852@0.23.1440.852" timestamp="1598754704167" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

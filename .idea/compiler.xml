@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flowable-demo" />
-        <module name="activiti-demo" />
+        <module name="agent-demo" />
         <module name="elasticsearch-demo" />
-        <module name="base-demo" />
-        <module name="security-demo-client" />
         <module name="rocketmq-demo" />
+        <module name="activiti-demo" />
+        <module name="security-demo-client" />
+        <module name="base-demo" />
+        <module name="springboot-test-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +26,7 @@
       <module name="cloud-provider" target="1.8" />
       <module name="cloud-security" target="1.8" />
       <module name="cloud-zuul" target="1.5" />
+      <module name="demo" target="1.5" />
       <module name="hateoas" target="11" />
       <module name="spring-cloud-netflix-demo" target="1.8" />
     </bytecodeTargetLevel>
@@ -36,6 +39,7 @@
       <module name="hateoas" options="-parameters" />
       <module name="rocketmq-demo" options="-parameters" />
       <module name="security-demo-client" options="-parameters" />
+      <module name="springboot-test-demo" options="-parameters" />
     </option>
   </component>
 </project>

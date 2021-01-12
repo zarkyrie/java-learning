@@ -14,5 +14,7 @@
         <module>security-demo</module>
         <module>flowable-demo</module>
         <module>rocketmq-demo</module>
+        <module>springboot-test-demo</module>
+        <module>java-agent-demo</module>
     </modules>
 </project>
